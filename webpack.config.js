@@ -27,7 +27,7 @@ module.exports = {
       reconnect: true,
     },
     allowedHosts: ["127.0.0.1"],
-    port: 3030,
+    port: 4040,
     open: true,
     hot: true,
     liveReload: true,

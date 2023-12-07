@@ -1,6 +1,13 @@
 import "../public/app.scss";
 import Web3 from "web3";
 import { ethers } from "ethers";
+import * as THREE from "three";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import Flip from "gsap/Flip";
+import Draggable from "gsap/Draggable";
 import { BrainWallet, Eip1193Bridge, NonceManager } from "@ethersproject/experimental";
 import { sha256 } from "crypto-hash";
 import UAuth from "@uauth/js";
@@ -12,6 +19,7 @@ import { show } from "./bin/dynelements";
 import { login, signup, edit } from "./bin/forms";
 import { iii6_stage, design_stage, develop_stage, launch_stage, info_stage } from "./bin/dyncontent";
 
+gsap.registerPlugin(ScrollTrigger, Draggable, Flip);
 const client = require("ipfs-http-client");
 const ipfs = client.create({
   host: "ipfs.infura.io",
