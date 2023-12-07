@@ -1,0 +1,9 @@
+export const bg = document.getElementById("bg");
+export const stage = document.getElementById("stage");
+export const dev_inf = document.getElementById("dev-inf");
+export const nav = document.getElementById("nav");
+export const head = document.getElementById("head");
+export const move = document.getElementById("move");
+export const modal = document.getElementById("modal");
+export const modalbox = document.getElementById("modalbox");
+export const foot = document.getElementById("foot");

@@ -1,0 +1,28 @@
+export let modalhead = document.getElementById("modalhead");
+export let modalbody = document.getElementById("modalbody");
+export let modalfoot = document.getElementById("modalfoot");
+export let closer = document.getElementById("closer");
+export let name;
+export let email;
+export let country;
+export let mobile;
+export let status;
+export let image;
+export let imageholder;
+export let wallet;
+export let ud;
+export let mm;
+export let logg;
+export const resetFormElements = () => {
+  name = document.getElementById("name");
+  email = document.getElementById("email");
+  country = document.getElementById("country");
+  mobile = document.getElementById("mobile");
+  image = document.getElementById("image");
+  imageholder = document.getElementById("imageholder");
+  status = document.getElementById("status");
+  wallet = document.getElementById("wallet");
+  ud = document.getElementById("ud");
+  mm = document.getElementById("mm");
+  logg = document.getElementById("logg");
+};
