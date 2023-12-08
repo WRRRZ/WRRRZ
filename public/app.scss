@@ -14,6 +14,14 @@ body {
   background: black;
   color: white;
 }
+#bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
 input {
   padding-left: 1em;
 }
@@ -30,6 +38,7 @@ input {
   display: grid;
   grid-template-columns: 3fr 1fr 2fr;
   grid-gap: 1em;
+  z-index: 1000;
 }
 .menu {
   display: grid;
