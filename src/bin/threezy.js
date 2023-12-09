@@ -1,42 +1,91 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
-import Flip from "gsap/Flip";
-import Draggable from "gsap/Draggable";
-const renderer = new THREE.WebGLRenderer();
-renderer.setSize(window.innerWidth, window.innerHeight);
-bg.appendChild(renderer.domElement);
-const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.set(-3.5, -2.2, 1.5);
-const light = new THREE.DirectionalLight("#ddddff", 10);
-light.position.set(-20, 0, 0);
-light.target.position.set(5, -12, -5);
-scene.add(light);
-scene.add(light.target);
-let helper = new THREE.DirectionalLightHelper(light, 10);
-light.add(helper);
-let iii6model;
-const loader = new GLTFLoader();
-loader.load("./3d/base.glb", (gltfScene) => {
-  console.log(gltfScene);
-  iii6model = gltfScene.scene;
-  const material = new THREE.MeshStandardMaterial({ color: "#456323", wireframe: true });
-  iii6model.scale.set(1, 1, 1);
-  iii6model.position.x = 0;
-  iii6model.position.y = 0;
-  iii6model.position.z = -5;
-  iii6model.rotation.x += 0.235;
-  console.log(iii6model);
-  scene.add(iii6model);
-});
+import { bg } from "./mainelements";
+let gltf = null;
+let mixer = null;
+let clock = new THREE.Clock();
+let controls;
+let renderer;
+let scene;
+let camera;
 
-// const axesHelper = new THREE.AxesHelper(5);
-const boxGeo = new THREE.BoxGeometry(50, 50, 0.2);
-const boxMat = new THREE.MeshBasicMaterial({ color: "#ededeff" });
-const box = new THREE.Mesh(boxGeo, boxMat);
-box.position.set(0, 0, -20);
-// scene.add(axesHelper);
-scene.add(box);
+const init = () => {
+  let width = window.innerWidth;
+  let height = window.innerHeight;
+
+  scene = new THREE.Scene();
+
+  let ambient = new THREE.AmbientLight(0x101030);
+  scene.add(ambient);
+
+  let directionalLight = new THREE.DirectionalLight(0xffeedd);
+  directionalLight.position.set(0, 0, 1);
+  scene.add(directionalLight);
+
+  let directionalLight2 = new THREE.DirectionalLight(0xffeedd);
+  directionalLight2.position.set(0, 5, -5);
+  scene.add(directionalLight2);
+
+  camera = new THREE.PerspectiveCamera(75, width / height, 1, 2000);
+  camera.position.set(2, 2, 3);
+
+  let manager = new THREE.LoadingManager();
+  manager.onProgress = function (item, loaded, total) {
+    console.log(item, loaded, total);
+  };
+
+  let loader = new GLTFLoader();
+  loader.setCrossOrigin("anonymous");
+
+  let scale = 0.2;
+  let url = "https://raw.githubusercontent.com/WRRRZ/WRRRZ/main/public/3d/base.gltf";
+
+  loader.load(url, function (data) {
+    gltf = data;
+    let object = gltf.scene;
+    object.scale.set(scale, scale, scale);
+    //object.position.y -= 10;
+
+    let animations = gltf.animations;
+    if (animations && animations.length) {
+      mixer = new THREE.AnimationMixer(object);
+      for (let i = 0; i < animations.length; i++) {
+        let animation = animations[i];
+        mixer.clipAction(animation).play();
+      }
+    }
+    scene.add(object);
+  });
+
+  let axis = new THREE.AxisHelper(1000);
+  scene.add(axis);
+
+  renderer = new THREE.WebGLRenderer();
+  renderer.setClearColor(0xaaddbb);
+
+  controls = new OrbitControls(camera, renderer.domElement);
+  controls.userPan = true;
+  controls.userPanSpeed = 0.0;
+  controls.maxDistance = 5000.0;
+  controls.maxPolarAngle = Math.PI * 0.495;
+  controls.autoRotate = true;
+  controls.autoRotateSpeed = -10.0;
+
+  renderer.setSize(width, height);
+  bg.appendChild(renderer.domElement);
+};
+
+function animate() {
+  requestAnimationFrame(animate);
+  if (mixer) mixer.update(clock.getDelta());
+  controls.update();
+  render();
+}
+
+function render() {
+  renderer.render(scene, camera);
+}
+
+init();
+animate();
