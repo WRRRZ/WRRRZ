@@ -10,13 +10,13 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 bg.appendChild(renderer.domElement);
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.set(-3.5, 2.2, 1.5);
+camera.position.set(-3.5, -2.2, 1.5);
 const light = new THREE.DirectionalLight("#ddddff", 10);
 light.position.set(-20, 0, 0);
 light.target.position.set(5, -12, -5);
 scene.add(light);
 scene.add(light.target);
-let helper = new THREE.DirectionalLightHelper(light, 7);
+let helper = new THREE.DirectionalLightHelper(light, 10);
 light.add(helper);
 let iii6model;
 const loader = new GLTFLoader();
@@ -29,6 +29,7 @@ loader.load("./3d/base.glb", (gltfScene) => {
   iii6model.position.y = 0;
   iii6model.position.z = -5;
   iii6model.rotation.x += 0.235;
+  console.log(iii6model);
   scene.add(iii6model);
 });
 
