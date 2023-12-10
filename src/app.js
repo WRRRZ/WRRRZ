@@ -39,6 +39,9 @@ const navigate = async (e) => {
     animate();
   } else if (e.target.id == "develop") {
     show.innerHTML = develop_stage;
+    init(level3d);
+    hold = level3d;
+    animate();
   } else if (e.target.id == "launch") {
     show.innerHTML = launch_stage;
   } else if (e.target.id == "info") {
