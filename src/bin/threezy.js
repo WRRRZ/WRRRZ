@@ -46,6 +46,7 @@ const init = () => {
     let object = gltf.scene;
     object.scale.set(scale, scale, scale);
     //object.position.y -= 10;
+    console.log(object);
 
     let animations = gltf.animations;
     if (animations && animations.length) {
