@@ -10,7 +10,7 @@ export let controls;
 export let renderer;
 export let scene;
 export let camera;
-export let character3d = "../../images/3d/base_action_scene.gltf";
+export let character3d = "../../images/3d/base_idle.gltf";
 export let level3d = "../../images/3d/map.gltf";
 export let flex3d = "../../images/3d/base.gltf";
 
@@ -32,7 +32,7 @@ export const init = (model) => {
   scene.add(directionalLight2);
 
   camera = new THREE.PerspectiveCamera(75, width / height, 1, 2000);
-  camera.position.set(2, 2, 5);
+  camera.position.set(4, 12, 12);
 
   let manager = new THREE.LoadingManager();
   manager.onProgress = function (item, loaded, total) {
@@ -43,14 +43,14 @@ export const init = (model) => {
   loader.setCrossOrigin("anonymous");
 
   let scale;
-  model === character3d ? (scale = 3) : (scale = 0.1);
+  model === character3d ? (scale = 1.5) : (scale = 0.66);
   let url = model;
 
   loader.load(url, function (data) {
     gltf = data;
     let object = gltf.scene;
     object.scale.set(scale, scale, scale);
-    //object.position.y -= 10;
+    object.position.y -= 10;
     console.log(object);
 
     let animations = gltf.animations;
@@ -76,7 +76,7 @@ export const init = (model) => {
   controls.maxDistance = 5000.0;
   controls.maxPolarAngle = Math.PI * 0.495;
   controls.autoRotate = true;
-  controls.autoRotateSpeed = -1.0;
+  controls.autoRotateSpeed = -0.5;
 
   renderer.setSize(width, height);
   bg.appendChild(renderer.domElement);
