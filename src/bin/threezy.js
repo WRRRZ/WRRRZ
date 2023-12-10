@@ -43,7 +43,7 @@ export const init = (model) => {
   loader.setCrossOrigin("anonymous");
 
   let scale;
-  model === character3d ? (scale = 2) : (scale = 0.05);
+  model === character3d ? (scale = 3) : (scale = 0.1);
   let url = model;
 
   loader.load(url, function (data) {
