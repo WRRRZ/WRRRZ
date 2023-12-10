@@ -343,3 +343,7 @@ h1 {
 #apply {
   font-size: 2em;
 }
+#rhodium,
+#rhotxt {
+  grid-row: 4/-1;
+}

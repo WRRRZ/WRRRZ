@@ -17,7 +17,7 @@ export const design_stage = `
 </div>`;
 export const develop_stage = `
 <div id="coinbuild" class="barpost">
-  <h1 id="" class="title">Build your Interactive Real Estate and make it accessible for everyone on the Blockchain. Power your digital business with smartcontracts and Interactive Assets.</h1>
+  <h1 id="" class="title">Build your Interactive Real Estate and make it accessible for everyone on the Blockchain. Power your digital business with smartcontracts and Interactive Assets inside the Game.</h1>
   <button id="apply">APPLY NOW</button>
 </div>`;
 export const launch_stage = `<div id='desdyn' class='boxpost1'>
@@ -25,4 +25,21 @@ export const launch_stage = `<div id='desdyn' class='boxpost1'>
     <input type="email" id="emaily"/>
     <button id="newsy">STAY UPDATED</button>
 </div>`;
-export const info_stage = `<div id='showbody'></div>`;
+export const info_stage = `<div id='intro' class="boxpost1">
+<video width="100%" autoplay loop >
+  <source src="./images/clip3.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+<div id='introtxt' class="boxpost2">
+Welcome to WRRRZ are you ready for the ultimate adventure ?
+</div>
+<div id='rhotxt' class="boxpost1">
+The Rhodium Coin is the main InGame Currency of WRRRZ ...
+</div>
+<div id='rhodium' class="boxpost2">
+<video width="100%" autoplay loop >
+  <source src="./images/clip2.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>`;
