@@ -63,7 +63,7 @@ export const init = (model) => {
     scene.add(object);
   });
 
-  let axis = new THREE.AxisHelper(1000);
+  let axis = new THREE.AxesHelper(1000);
   scene.add(axis);
 
   renderer = new THREE.WebGLRenderer();
@@ -74,7 +74,7 @@ export const init = (model) => {
   controls.userPanSpeed = 0.0;
   controls.maxDistance = 5000.0;
   controls.maxPolarAngle = Math.PI * 0.495;
-  controls.autoRotate = true;
+  controls.autoRotate = false;
   controls.autoRotateSpeed = -10.0;
 
   renderer.setSize(width, height);

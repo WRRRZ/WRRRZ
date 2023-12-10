@@ -9,7 +9,7 @@ import { resetFormElements, name, email, country, mobile, mm, ud, closer, status
 import { iii6, design, develop, launch, info, account, token, network } from "./bin/navelements";
 import { show } from "./bin/dynelements";
 import { login, signup, edit } from "./bin/forms";
-import { iii6_stage, design_stage, develop_stage, launch_stage, info_stage } from "./bin/dyncontent";
+import { iii6_stage, iii6_bg, design_stage, develop_stage, launch_stage, info_stage } from "./bin/dyncontent";
 import { init, animate, character3d, level3d, flex3d, removeModel } from "./bin/threezy";
 const client = require("ipfs-http-client");
 const ipfs = client.create({
@@ -28,9 +28,10 @@ let signer;
 let hold;
 const navigate = async (e) => {
   console.log(":: target :", e.target.id, hold, "::");
-
+  bg.innerHTML = "";
   if (e.target.id == "iii6") {
     show.innerHTML = iii6_stage;
+    bg.innerHTML = iii6_bg;
   } else if (e.target.id == "design") {
     show.innerHTML = design_stage;
     init(character3d);
@@ -286,5 +287,6 @@ const MetaMaskClientCheck = () => {
 const web3init = async () => {
   MetaMaskClientCheck();
   show.innerHTML = iii6_stage;
+  bg.innerHTML = iii6_bg;
 };
 document.addEventListener("DOMContentLoaded", loaded);
