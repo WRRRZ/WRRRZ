@@ -10,7 +10,7 @@ export let controls;
 export let renderer;
 export let scene;
 export let camera;
-export let character3d = "../../images/3d/base_action_scene.gltf";
+export let character3d = "../../images/3d/base.gltf";
 export let level3d = "../../images/3d/map.gltf";
 export let flex3d = "../../images/3d/base.gltf";
 
@@ -20,7 +20,7 @@ export const init = (model) => {
 
   scene = new THREE.Scene();
 
-  let ambient = new THREE.AmbientLight(0x101030);
+  let ambient = new THREE.AmbientLight(0x112233);
   scene.add(ambient);
 
   let directionalLight = new THREE.DirectionalLight(0xffeedd);
@@ -64,10 +64,10 @@ export const init = (model) => {
   });
 
   let axis = new THREE.AxesHelper(1000);
-  scene.add(axis);
+  // scene.add(axis);
 
   renderer = new THREE.WebGLRenderer();
-  renderer.setClearColor(0xaaddbb);
+  renderer.setClearColor(0x001010);
 
   controls = new OrbitControls(camera, renderer.domElement);
   controls.userPan = true;
