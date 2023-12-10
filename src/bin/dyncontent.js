@@ -11,12 +11,9 @@ export const iii6_stage = `
 </div>`;
 export const design_stage = `
 <div id='desdyn' class='boxpost1'>
-    <h1 id='' class='title'>Codebender Dynamic NFTs Editor</h1>
-</div>
-<div id='desdapps' class='boxpost2'>
-    <h1 id='' class='title'>Interactive dApp SDK</h1>
-    <div id='' class='txt'></div>
-    <img src='' class='img' />
+    <h1 id='' class='title'>MINT YOUR WRRRZ</h1>
+    <input type="number" id="amnt"/>
+    <button id="mint">MINT WRRRZ</button>
 </div>`;
 export const develop_stage = `
 <div id="coinbuild" class="barpost">
