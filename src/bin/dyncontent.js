@@ -17,7 +17,7 @@ export const design_stage = `
 </div>`;
 export const develop_stage = `
 <div id="coinbuild" class="barpost">
-  <h1 id="" class="title">Create a custom ERC20 Token Contract</h1>
+  <h1 id="" class="title">Interactive Real Estate on the Blockchain</h1>
   <div id='' class='txt'></div>
   <img src='' class="img" />
 </div>`;
