@@ -10,8 +10,8 @@ export let controls;
 export let renderer;
 export let scene;
 export let camera;
-export let character3d = "../../images/3d/base.gltf";
-export let level3d = "../../images/3d/base.gltf";
+export let character3d = "../../images/3d/base_action_scene.gltf";
+export let level3d = "../../images/3d/map.gltf";
 export let flex3d = "../../images/3d/base.gltf";
 
 export const init = (model) => {
@@ -42,7 +42,7 @@ export const init = (model) => {
   let loader = new GLTFLoader();
   loader.setCrossOrigin("anonymous");
 
-  let scale = 0.2;
+  let scale = 1;
   let url = model;
 
   loader.load(url, function (data) {
