@@ -54,15 +54,18 @@ input {
 .home {
   text-align: center;
   font-size: 22px;
-  border: 1px solid white;
+  border: 0 solid white;
+  background: none;
   border-radius: 9px;
   padding-top: 0.2em;
   -moz-user-select: none;
   -webkit-user-select: none;
 }
-.link:hover {
-  border: 1px solid grey;
+.link:hover,
+.drop:hover {
+  border: 0 solid grey;
   border-radius: 9px;
+  text-decoration: underline;
 }
 .drop:hover {
   background: black;
@@ -293,25 +296,16 @@ h1 {
 .barpost {
   margin-top: 1em;
   grid-column: 1/-1;
-  border-radius: 9px;
-  border: 1px solid grey;
-  padding: 1em;
 }
 .boxpost1 {
   margin-top: 1em;
   grid-column: 1/4;
   grid-row: 1/4;
-  border-radius: 9px;
-  border: 1px solid grey;
-  padding: 1em;
 }
 .boxpost2 {
   margin-top: 1em;
   grid-column: 4/-1;
   grid-row: 1/4;
-  border-radius: 9px;
-  border: 1px solid grey;
-  padding: 1em;
 }
 #dynft {
   grid-row: 4/7;
@@ -331,11 +325,4 @@ h1 {
 }
 #sftbuild {
   grid-row: 7/10;
-}
-.barpost:hover,
-.boxpost1:hover,
-.boxpost2:hover {
-  background: rgba(white, 0.3);
-  // background-image: url("./images/vrl_bg.png");
-  color: white;
 }

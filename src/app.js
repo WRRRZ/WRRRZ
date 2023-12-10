@@ -10,7 +10,7 @@ import { iii6, design, develop, launch, info, account, token, network } from "./
 import { show } from "./bin/dynelements";
 import { login, signup, edit } from "./bin/forms";
 import { iii6_stage, design_stage, develop_stage, launch_stage, info_stage } from "./bin/dyncontent";
-import "./bin/threezy";
+import { init, animate, character3d, level3d, flex3d } from "./bin/threezy";
 const client = require("ipfs-http-client");
 const ipfs = client.create({
   host: "ipfs.infura.io",
@@ -32,6 +32,8 @@ const navigate = async (e) => {
     show.innerHTML = iii6_stage;
   } else if (e.target.id == "design") {
     show.innerHTML = design_stage;
+    init(character3d);
+    animate();
   } else if (e.target.id == "develop") {
     show.innerHTML = develop_stage;
   } else if (e.target.id == "launch") {

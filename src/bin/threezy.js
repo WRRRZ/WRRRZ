@@ -2,15 +2,19 @@ import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { bg } from "./mainelements";
-let gltf = null;
-let mixer = null;
-let clock = new THREE.Clock();
-let controls;
-let renderer;
-let scene;
-let camera;
 
-const init = () => {
+export let gltf = null;
+export let mixer = null;
+export let clock = new THREE.Clock();
+export let controls;
+export let renderer;
+export let scene;
+export let camera;
+export let character3d = "../../3d/base.gltf";
+export let level3d = "../../3d/base.gltf";
+export let flex3d = "../../3d/base.gltf";
+
+export const init = (model) => {
   let width = window.innerWidth;
   let height = window.innerHeight;
 
@@ -39,7 +43,7 @@ const init = () => {
   loader.setCrossOrigin("anonymous");
 
   let scale = 0.2;
-  let url = "https://raw.githubusercontent.com/WRRRZ/WRRRZ/main/public/3d/base.gltf";
+  let url = model;
 
   loader.load(url, function (data) {
     gltf = data;
@@ -77,16 +81,13 @@ const init = () => {
   bg.appendChild(renderer.domElement);
 };
 
-function animate() {
+export const animate = () => {
   requestAnimationFrame(animate);
   if (mixer) mixer.update(clock.getDelta());
   controls.update();
   render();
-}
+};
 
-function render() {
+export const render = () => {
   renderer.render(scene, camera);
-}
-
-init();
-animate();
+};
