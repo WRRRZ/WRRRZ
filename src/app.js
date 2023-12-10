@@ -25,14 +25,16 @@ let balance;
 
 let provider;
 let signer;
-
+let hold;
 const navigate = async (e) => {
-  console.log(":: target :", e.target.id, "::");
+  console.log(":: target :", e.target.id, hold, "::");
+
   if (e.target.id == "iii6") {
     show.innerHTML = iii6_stage;
   } else if (e.target.id == "design") {
     show.innerHTML = design_stage;
     init(character3d);
+    hold = character3d;
     animate();
   } else if (e.target.id == "develop") {
     show.innerHTML = develop_stage;
