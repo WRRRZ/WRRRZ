@@ -10,9 +10,9 @@ export let controls;
 export let renderer;
 export let scene;
 export let camera;
-export let character3d = "../../3d/base.gltf";
-export let level3d = "../../3d/base.gltf";
-export let flex3d = "../../3d/base.gltf";
+export let character3d = "../../images/3d/base.gltf";
+export let level3d = "../../images/3d/base.gltf";
+export let flex3d = "../../images/3d/base.gltf";
 
 export const init = (model) => {
   let width = window.innerWidth;
