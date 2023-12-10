@@ -91,3 +91,7 @@ export const animate = () => {
 export const render = () => {
   renderer.render(scene, camera);
 };
+
+export const removeModel = (object) => {
+  scene.remove(object.name);
+};
