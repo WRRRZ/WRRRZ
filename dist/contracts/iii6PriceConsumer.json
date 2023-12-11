@@ -12047,12 +12047,12 @@
     "80001": {
       "events": {},
       "links": {},
-      "address": "0xAfFcBe25BC2274a34866a10ba7121A5Af58BD292",
-      "transactionHash": "0x114545972313520cb3f58a2c8002b4bb798e8dc145e1e149f1972b2ddcabc35e"
+      "address": "0x2D1eE70DE7d2a5f5A8Eb24cE014EFD70d21c540D",
+      "transactionHash": "0x5c06b8ff77f4147e1c6e55eea326e2133e51b70949adf40ffaa3cd9dc97e108a"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2023-12-11T02:25:28.009Z",
+  "updatedAt": "2023-12-11T02:30:58.592Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

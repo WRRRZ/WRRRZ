@@ -27811,12 +27811,12 @@
     "80001": {
       "events": {},
       "links": {},
-      "address": "0x06d2A1FE97D45cB6C4533d47302BCAeAf6A6618F",
-      "transactionHash": "0x72bed39c11e96f496ee168cb887e0390213c9723c9b1f35570c0f53ebe20da90"
+      "address": "0xDe14a58DC65a34FB4B1B1458F48C7A35056d171f",
+      "transactionHash": "0x0008074db7b7f3ab887f88ebf739326c99a6914307ee54e291e08ca72762206c"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2023-12-11T02:26:08.602Z",
+  "updatedAt": "2023-12-11T02:31:38.789Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "the s0xFactory creates the s0xial user friend and group interface and functions as central administration hub for all s0xial interactions",
