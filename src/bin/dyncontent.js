@@ -20,6 +20,13 @@ export const develop_stage = `
   <h1 id="" class="title">Build your Interactive Real Estate and make it accessible for everyone on the Blockchain. Power your digital business with smartcontracts and Interactive Assets inside the Game.</h1>
   <button id="apply">APPLY NOW</button>
 </div>`;
+export const launch_bg = `
+<div id='video' class="cov">
+<video width="100%" autoplay loop >
+  <source src="./images/clip4.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>`;
 export const launch_stage = `<div id='desdyn' class='boxpost1'>
     <h1 id='' class='title'>Weekly Newsletter Sign Up</h1>
     <input type="email" id="emaily"/>
