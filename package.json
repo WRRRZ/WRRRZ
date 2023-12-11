@@ -54,6 +54,7 @@
     "npm-check": "^5.9.2",
     "parcel": "^2.10.3",
     "three": "^0.136.0",
+    "three.modifiers": "^2.5.7",
     "truffle-plugin-verify": "^0.6.2",
     "underscore": "^1.13.2",
     "updtr": "^4.0.0",

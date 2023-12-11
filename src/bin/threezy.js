@@ -2,6 +2,7 @@ import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { bg } from "./mainelements";
+import { ModifierStack, Twist, Noise, Cloth, UserDefined, Taper, Break, Bloat, Vector3, ModConstant } from "three.modifiers";
 
 export let gltf = null;
 export let mixer = null;
@@ -10,10 +11,10 @@ export let controls;
 export let renderer;
 export let scene;
 export let camera;
-export let character3d = "../../images/3d/bendetta_talking.gltf";
+export let character3d = "../../images/3d/idle.gltf";
 export let level3d = "../../images/3d/map.gltf";
 export let flex3d = "../../images/3d/base.gltf";
-
+export let modifier;
 export const init = (model) => {
   let width = window.innerWidth;
   let height = window.innerHeight;
@@ -43,16 +44,18 @@ export const init = (model) => {
   loader.setCrossOrigin("anonymous");
 
   let scale;
-  model === character3d ? (scale = 1.5) : (scale = 0.66);
+  model === character3d ? (scale = 9) : (scale = 0.66);
   let url = model;
-
+  let object;
   loader.load(url, function (data) {
     gltf = data;
-    let object = gltf.scene;
+    object = gltf.scene;
     object.scale.set(scale, scale, scale);
     object.position.y -= 10;
     console.log(object);
-
+    console.log(object.children[2]);
+    // modifier = new ModifierStack(object.children[2]);
+    // modifier.addModifier(cloth);
     let animations = gltf.animations;
     if (animations && animations.length) {
       mixer = new THREE.AnimationMixer(object);
@@ -85,12 +88,14 @@ export const init = (model) => {
 export const animate = () => {
   requestAnimationFrame(animate);
   if (mixer) mixer.update(clock.getDelta());
+  // modifier && modifier.apply();
   controls.update();
   render();
 };
 
 export const render = () => {
   renderer.render(scene, camera);
+  modifier && modifier.apply();
 };
 
 export const removeModel = (object) => {
