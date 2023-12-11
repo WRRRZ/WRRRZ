@@ -17,8 +17,9 @@ export const design_stage = `
 </div>`;
 export const develop_stage = `
 <div id="coinbuild" class="barpost">
-  <h1 id="" class="title">Build your Interactive Real Estate and make it accessible for everyone on the Blockchain. Power your digital business with smartcontracts and Interactive Assets inside the Game.</h1>
-  <button id="apply">APPLY NOW</button>
+  <h1 id="" class="title">Build your Interactive Real Estate and make it accessible for everyone on the Blockchain. Power your digital business with smartcontracts and Interactive Assets inside the Game.
+  <br/><a id="apply" href="https://form.jotform.com/233437523804051" target="_blank">APPLY NOW</a></h1>
+  
 </div>`;
 export const launch_bg = `
 <div id='video' class="cov">
@@ -28,8 +29,9 @@ Your browser does not support the video tag.
 </video>
 </div>`;
 export const launch_stage = `<div id='desdyn' class='boxpost1'>
-    <h1 id='' class='title'>Weekly Newsletter Sign Up</h1>
-    <button id="newsy">STAY UPDATED</button>
+    <h1 id='' class='title'>Weekly Newsletter <br/>
+    <a id="newsy" href="https://form.jotform.com/233438184528058" target="_blank">STAY UPDATED</a></h1>
+    
 </div>`;
 export const info_stage = `<div id='intro' class="boxpost1">
 <video width="100%" autoplay loop >
