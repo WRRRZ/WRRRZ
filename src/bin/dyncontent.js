@@ -29,7 +29,6 @@ Your browser does not support the video tag.
 </div>`;
 export const launch_stage = `<div id='desdyn' class='boxpost1'>
     <h1 id='' class='title'>Weekly Newsletter Sign Up</h1>
-    <input type="email" id="emaily"/>
     <button id="newsy">STAY UPDATED</button>
 </div>`;
 export const info_stage = `<div id='intro' class="boxpost1">
@@ -39,10 +38,23 @@ Your browser does not support the video tag.
 </video>
 </div>
 <div id='introtxt' class="boxpost2">
-Welcome to WRRRZ are you ready for the ultimate adventure ?
+Welcome to WRRRZ are you ready for the ultimate adventure ? 
+Mint your interactive Character in form of a #dynamicNFT directly to your Polygon Wallet. 
+Your WRRRZ are based on DIASv3D and will evolve over time. If your character dies in the Game 
+it dies in the Blockchain and it will turn into a Biography of the Player. Besides a lot of fun,
+action and strategic thought you are able to visit Stores and utilise In Game Services, buy Phygital 
+Fashion Products and fight your way up the WRRRZ Hierarchy. Chainlink VRF technology allows us to 
+create an almost infinite amount of characters that are all entirely unique in traits, performance 
+and appearance. 
 </div>
 <div id='rhotxt' class="boxpost1">
-The Rhodium Coin is the main InGame Currency of WRRRZ ...
+The Rhodium Coin is the main InGame Currency of WRRRZ with it you can mint new WRRRZ, 
+buy products and services inside the game and even create real estate in a frequent but 
+safe area inside the game where other users can spend their Rhodium. Our Focus is on 
+Fashion, Music, Web3 and a digital Nomad Lifestyle so if you have a business that fits 
+in that niche feel free to apply for some real estate before the launch. The Rhodium Coin 
+is a Stable Coin pegged to Polygon Matic 1:1 it is a burnable token and burns all game fees
+and ~7% of the WRRRZ products generated profits.   
 </div>
 <div id='rhodium' class="boxpost2">
 <video width="100%" autoplay loop >
