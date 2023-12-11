@@ -1,6 +1,14 @@
 * {
   box-sizing: border-box;
-  font-family: "Courier", sans-serif;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 100;
+}
+a {
+  color: white;
+  padding: 0.2em;
+  border-radius: 9px;
+  z-index: 1;
+  margin: 1em;
 }
 html {
   scroll-behavior: smooth;

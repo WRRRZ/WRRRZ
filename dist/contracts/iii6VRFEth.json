@@ -21520,7 +21520,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.16",
-  "updatedAt": "2023-12-11T02:26:54.695Z",
+  "updatedAt": "2023-12-11T02:32:26.371Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "With the select contract on line: 721 ... you can deploy automatically by deploying the selectVRF {} contract you may also deploy the contracts manually but have to chose the right one for each network in this case",
