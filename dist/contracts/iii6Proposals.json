@@ -10,20 +10,20 @@
   "sourceMap": "8654:2013:57:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "8654:2013:57:-:0;;;;;",
   "source": "// SPDX-License-Identifier: GPL-3.0\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//\n//      MMWKd:..                                                                                    ..:dKWMM\n//      MKl.                                                                                            .lKW\n//      O'       ..''''''''''''.     .''''''.     .'''''.      .''''''''''''''.     .''''''''''''..       'O\n//      '     .ckKNNWNWWWWWWWWWk.   .xNWWNWNl    ,0WWWWW0,     lNWWWWWWWWWNWNk'    ;0NNNWWWWWWWWNNKkc.     '\n//           ,OWMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMMMM0,    ;KMMMMMMMMMMMMMMMMWO,\n//          .kMMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMMM0,    ;KMMMMMMMMMMMMMMMMMMMk.\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMM0,    :KMMMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMM0,    :KMMMMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMM0,    ;0NNWWMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMM0,     .'.',;lkNMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMK;              ,kWMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMX:    .:oxxdc'    .dWMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMWd.   ,OWMMMMMXl.   '0MMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMX;   .kMMMMMMMMK,   .xMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMM0'   .OMMMMMMMMX;   .xMMMMMMMMMMMM0'\n//          .OMMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMK,    lNMMMMMMWx.   '0MMMMMMMMMMMMO.\n//           lNMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMWd.   .:x0KKKkc.   .dWMMMMMMMMMMMNl\n//      .    .c0WMMMMMMMMMMMMMMO.   .kMMMMMWo    ,KMMMMMK,     lWMMMMNd.     ....     .xNMMMMMMMMMMW0c.    .\n//      l      .,lddxxxxxxxxxxxc.    :xxxxxd,    .lxxxxxl.     ,dxxxxxd:.            .cdxxxxxxxxddl,.      l\n//      No.                                                                                              .oN\n//      MW0l'                                                                                          'l0WM\n//      MMMWKd;.                                                                                    .;dKWMMM\n//\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//                                                                                                                                                                                  //\n//      @dev            ::              Aron Mauritala Ayuk                                                                                                                                          //\n//      @msg            ::              stereo@iii6.xyz                                                                                                                                   //\n//      @github         ::              @stereoIII6\n//      @twitter        ::              @stereoIII6                                                                                                                                              //\n//                                                                                                                                                                                  //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//                                                                                                                                                                                  //\n//      @dev            ::              Juan Xavier Valverde                                                                                                                                    //\n//      @msg            ::              juanxavier@iii6.xyz                                                                                                                               //\n//      @twitter        ::              @JuanXavier                                                                                                                                             //\n//      @github         ::              @JuanXavier                                                                                                                                             //\n//                                                                                                                                                                                  //                                                                                                                                                                                 //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//                                                                                                                                                                                  //\n//      @company        ::              Fractio Holding                                                                                                                                                                       //\n//      @title          ::              iii6 Global Enums                                                                                                                           //\n//      @description    ::              Global Enum Library                                                                                                                           //\n//      @version        ::              0.0.1                                                                                                                                       //\n//      @purpose        ::              Enum Library                                                                                                          //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n\n/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n\n/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n\npragma solidity ^0.8.7;\n\ncontract iii6Proposals {\n    // ██╗███╗░░██╗██╗████████╗██╗░█████╗░██╗░░░░░██╗░██████╗░█████╗░████████╗██╗░█████╗░███╗░░██╗\n    // ██║████╗░██║██║╚══██╔══╝██║██╔══██╗██║░░░░░██║██╔════╝██╔══██╗╚══██╔══╝██║██╔══██╗████╗░██║\n    // ██║██╔██╗██║██║░░░██║░░░██║███████║██║░░░░░██║╚█████╗░███████║░░░██║░░░██║██║░░██║██╔██╗██║\n    // ██║██║╚████║██║░░░██║░░░██║██╔══██║██║░░░░░██║░╚═══██╗██╔══██║░░░██║░░░██║██║░░██║██║╚████║\n    // ██║██║░╚███║██║░░░██║░░░██║██║░░██║███████╗██║██████╔╝██║░░██║░░░██║░░░██║╚█████╔╝██║░╚███║\n    // ╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝\n\n    // user relation states\n    enum Voting {\n        Active,\n        Canceled,\n        Approved\n    }\n\n    struct Proposal {\n        uint256 rid;\n        uint256 voteCount;\n        address[] members;\n        uint256[] shares;\n        int256[] difs;\n        bool[] votes;\n        Voting state;\n    }\n}\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//\n//      MMWKd:..                                                                                    ..:dKWMM\n//      MKl.                                                                                            .lKW\n//      O'       ..''''''''''''.     .''''''.     .'''''.      .''''''''''''''.     .''''''''''''..       'O\n//      '     .ckKNNWNWWWWWWWWWk.   .xNWWNWNl    ,0WWWWW0,     lNWWWWWWWWWNWNk'    ;0NNNWWWWWWWWNNKkc.     '\n//           ,OWMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMMMM0,    ;KMMMMMMMMMMMMMMMMWO,\n//          .kMMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMMM0,    ;KMMMMMMMMMMMMMMMMMMMk.\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMM0,    :KMMMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMM0,    :KMMMMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMM0,    ;0NNWWMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMM0,     .'.',;lkNMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMK;              ,kWMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMX:    .:oxxdc'    .dWMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMWd.   ,OWMMMMMXl.   '0MMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMX;   .kMMMMMMMMK,   .xMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMM0'   .OMMMMMMMMX;   .xMMMMMMMMMMMM0'\n//          .OMMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMK,    lNMMMMMMWx.   '0MMMMMMMMMMMMO.\n//           lNMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMWd.   .:x0KKKkc.   .dWMMMMMMMMMMMNl\n//      .    .c0WMMMMMMMMMMMMMMO.   .kMMMMMWo    ,KMMMMMK,     lWMMMMNd.     ....     .xNMMMMMMMMMMW0c.    .\n//      l      .,lddxxxxxxxxxxxc.    :xxxxxd,    .lxxxxxl.     ,dxxxxxd:.            .cdxxxxxxxxddl,.      l\n//      No.                                                                                              .oN\n//      MW0l'                                                                                          'l0WM\n//      MMMWKd;.                                                                                    .;dKWMMM\n//\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n",
-  "sourcePath": "/Users/iii6/Documents/GitHub/iii6v2/iii6v2/contracts/iii6utils/Misc/iii6Proposals.sol",
+  "sourcePath": "/Users/iii6/Documents/GitHub/iii6v2/WRRRZ/contracts/iii6utils/Misc/iii6Proposals.sol",
   "ast": {
     "absolutePath": "project:/contracts/iii6utils/Misc/iii6Proposals.sol",
     "exportedSymbols": {
       "iii6Proposals": [
-        8136
+        8147
       ]
     },
-    "id": 8137,
+    "id": 8148,
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 8111,
+        "id": 8122,
         "literals": [
           "solidity",
           "^",
@@ -40,9 +40,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 8136,
+        "id": 8147,
         "linearizedBaseContracts": [
-          8136
+          8147
         ],
         "name": "iii6Proposals",
         "nameLocation": "8663:13:57",
@@ -50,24 +50,24 @@
         "nodes": [
           {
             "canonicalName": "iii6Proposals.Voting",
-            "id": 8115,
+            "id": 8126,
             "members": [
               {
-                "id": 8112,
+                "id": 8123,
                 "name": "Active",
                 "nameLocation": "10420:6:57",
                 "nodeType": "EnumValue",
                 "src": "10420:6:57"
               },
               {
-                "id": 8113,
+                "id": 8124,
                 "name": "Canceled",
                 "nameLocation": "10436:8:57",
                 "nodeType": "EnumValue",
                 "src": "10436:8:57"
               },
               {
-                "id": 8114,
+                "id": 8125,
                 "name": "Approved",
                 "nameLocation": "10454:8:57",
                 "nodeType": "EnumValue",
@@ -81,16 +81,16 @@
           },
           {
             "canonicalName": "iii6Proposals.Proposal",
-            "id": 8135,
+            "id": 8146,
             "members": [
               {
                 "constant": false,
-                "id": 8117,
+                "id": 8128,
                 "mutability": "mutable",
                 "name": "rid",
                 "nameLocation": "10508:3:57",
                 "nodeType": "VariableDeclaration",
-                "scope": 8135,
+                "scope": 8146,
                 "src": "10500:11:57",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -99,7 +99,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 8116,
+                  "id": 8127,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "10500:7:57",
@@ -112,12 +112,12 @@
               },
               {
                 "constant": false,
-                "id": 8119,
+                "id": 8130,
                 "mutability": "mutable",
                 "name": "voteCount",
                 "nameLocation": "10529:9:57",
                 "nodeType": "VariableDeclaration",
-                "scope": 8135,
+                "scope": 8146,
                 "src": "10521:17:57",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -126,7 +126,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 8118,
+                  "id": 8129,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "10521:7:57",
@@ -139,12 +139,12 @@
               },
               {
                 "constant": false,
-                "id": 8122,
+                "id": 8133,
                 "mutability": "mutable",
                 "name": "members",
                 "nameLocation": "10558:7:57",
                 "nodeType": "VariableDeclaration",
-                "scope": 8135,
+                "scope": 8146,
                 "src": "10548:17:57",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -154,7 +154,7 @@
                 },
                 "typeName": {
                   "baseType": {
-                    "id": 8120,
+                    "id": 8131,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "10548:7:57",
@@ -164,7 +164,7 @@
                       "typeString": "address"
                     }
                   },
-                  "id": 8121,
+                  "id": 8132,
                   "nodeType": "ArrayTypeName",
                   "src": "10548:9:57",
                   "typeDescriptions": {
@@ -176,12 +176,12 @@
               },
               {
                 "constant": false,
-                "id": 8125,
+                "id": 8136,
                 "mutability": "mutable",
                 "name": "shares",
                 "nameLocation": "10585:6:57",
                 "nodeType": "VariableDeclaration",
-                "scope": 8135,
+                "scope": 8146,
                 "src": "10575:16:57",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -191,7 +191,7 @@
                 },
                 "typeName": {
                   "baseType": {
-                    "id": 8123,
+                    "id": 8134,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "10575:7:57",
@@ -200,7 +200,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 8124,
+                  "id": 8135,
                   "nodeType": "ArrayTypeName",
                   "src": "10575:9:57",
                   "typeDescriptions": {
@@ -212,12 +212,12 @@
               },
               {
                 "constant": false,
-                "id": 8128,
+                "id": 8139,
                 "mutability": "mutable",
                 "name": "difs",
                 "nameLocation": "10610:4:57",
                 "nodeType": "VariableDeclaration",
-                "scope": 8135,
+                "scope": 8146,
                 "src": "10601:13:57",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -227,7 +227,7 @@
                 },
                 "typeName": {
                   "baseType": {
-                    "id": 8126,
+                    "id": 8137,
                     "name": "int256",
                     "nodeType": "ElementaryTypeName",
                     "src": "10601:6:57",
@@ -236,7 +236,7 @@
                       "typeString": "int256"
                     }
                   },
-                  "id": 8127,
+                  "id": 8138,
                   "nodeType": "ArrayTypeName",
                   "src": "10601:8:57",
                   "typeDescriptions": {
@@ -248,12 +248,12 @@
               },
               {
                 "constant": false,
-                "id": 8131,
+                "id": 8142,
                 "mutability": "mutable",
                 "name": "votes",
                 "nameLocation": "10631:5:57",
                 "nodeType": "VariableDeclaration",
-                "scope": 8135,
+                "scope": 8146,
                 "src": "10624:12:57",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -263,7 +263,7 @@
                 },
                 "typeName": {
                   "baseType": {
-                    "id": 8129,
+                    "id": 8140,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "10624:4:57",
@@ -272,7 +272,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 8130,
+                  "id": 8141,
                   "nodeType": "ArrayTypeName",
                   "src": "10624:6:57",
                   "typeDescriptions": {
@@ -284,36 +284,36 @@
               },
               {
                 "constant": false,
-                "id": 8134,
+                "id": 8145,
                 "mutability": "mutable",
                 "name": "state",
                 "nameLocation": "10653:5:57",
                 "nodeType": "VariableDeclaration",
-                "scope": 8135,
+                "scope": 8146,
                 "src": "10646:12:57",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_enum$_Voting_$8115",
+                  "typeIdentifier": "t_enum$_Voting_$8126",
                   "typeString": "enum iii6Proposals.Voting"
                 },
                 "typeName": {
-                  "id": 8133,
+                  "id": 8144,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 8132,
+                    "id": 8143,
                     "name": "Voting",
                     "nameLocations": [
                       "10646:6:57"
                     ],
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 8115,
+                    "referencedDeclaration": 8126,
                     "src": "10646:6:57"
                   },
-                  "referencedDeclaration": 8115,
+                  "referencedDeclaration": 8126,
                   "src": "10646:6:57",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_Voting_$8115",
+                    "typeIdentifier": "t_enum$_Voting_$8126",
                     "typeString": "enum iii6Proposals.Voting"
                   }
                 },
@@ -323,12 +323,12 @@
             "name": "Proposal",
             "nameLocation": "10481:8:57",
             "nodeType": "StructDefinition",
-            "scope": 8136,
+            "scope": 8147,
             "src": "10474:191:57",
             "visibility": "public"
           }
         ],
-        "scope": 8137,
+        "scope": 8148,
         "src": "8654:2013:57",
         "usedErrors": [],
         "usedEvents": []
@@ -342,7 +342,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.16",
-  "updatedAt": "2023-12-05T23:55:20.151Z",
+  "updatedAt": "2023-12-11T02:05:21.491Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

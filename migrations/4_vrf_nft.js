@@ -1,4 +1,4 @@
-const NFTfactory = artifacts.require("iii6utils/Assets/iii6AssetFactory.sol");
+const NFT = artifacts.require("iii6utils/iii6DiaModel");
 module.exports = function (deployer) {
-  deployer.deploy(NFTfactory);
+  deployer.deploy(NFT, "0xe55e1a1c7c8a82648aedbb2853a01306ce97df87", "WRRRZ", "WRRRZ", 10 ** 22, 10 * 18, 0);
 };

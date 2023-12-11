@@ -940,7 +940,7 @@
   "sourceMap": "8597:12372:51:-:0;;;9048:13;9033:28;;9095:58;;;;;;;;;;9128:18;:16;;;:18;;:::i;:::-;9119:6;:27;;;;8597:12372;;9159:11665;9205:15;10360:1;10352:4;;:9;10348:10470;;10401:42;10377:10;;:67;;;;;;;;;;;;;;;;;;10468:10;;;;;;;;;;:29;;;:31;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;10458:41;;10348:10470;;;11400:1;11392:4;;:9;11388:9430;;11464:42;11417:13;;:103;;;;;;;;;;;;;;;;;;11544:13;;;;;;;;;;;:32;;;:34;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;11534:44;;11388:9430;;;12749:3;12741:4;;:11;12737:8081;;12813:42;12768:12;;:101;;;;;;;;;;;;;;;;;;12893:12;;;;;;;;;;;:31;;;:33;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;12883:43;;12737:8081;;;13941:5;13933:4;;:13;13929:6889;;14009:42;13962:13;;:103;;;;;;;;;;;;;;;;;;14089:13;;;;;;;;;;;:32;;;:34;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;14079:44;;13929:6889;;;14664:2;14656:4;;:10;14652:6166;;14706:42;14682:10;;:67;;;;;;;;;;;;;;;;;;14773:10;;;;;;;;;;;:29;;;:31;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;14763:41;;14652:6166;;;15795:2;15787:4;;:10;15783:5035;;15860:42;15813:13;;:103;;;;;;;;;;;;;;;;;;15940:13;;;;;;;;;;;:32;;;:34;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;15930:44;;15783:5035;;;16677:5;16669:4;;:13;16665:4153;;16741:42;16698:11;;:99;;;;;;;;;;;;;;;;;;16821:11;;;;;;;;;;;:30;;;:32;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;16811:42;;16665:4153;;;17466:5;17458:4;;:13;17454:3364;;17530:42;17487:11;;:99;;;;;;;;;;;;;;;;;;17610:11;;;;;;;;;;;:30;;;:32;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;17600:42;;17454:3364;;;18705:3;18697:4;;:11;18693:2125;;18771:42;18724:13;;:103;;;;;;;;;;;;;;;;;;18851:13;;;;;;;;;;;:32;;;:34;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;18841:44;;18693:2125;;;20614:4;20606;;:12;20602:216;;20689:42;20634:17;;:111;;;;;;;;;;;;;;;;;;20769:17;;;;;;;;;;;:36;;;:38;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;20759:48;;20602:216;18693:2125;17454:3364;16665:4153;15783:5035;14652:6166;13929:6889;12737:8081;11388:9430;10348:10470;9159:11665;:::o;88:117:69:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:143::-;602:5;633:6;627:13;618:22;;649:33;676:5;649:33;:::i;:::-;545:143;;;;:::o;694:351::-;764:6;813:2;801:9;792:7;788:23;784:32;781:119;;;819:79;;:::i;:::-;781:119;939:1;964:64;1020:7;1011:6;1000:9;996:22;964:64;:::i;:::-;954:74;;910:128;694:351;;;;:::o;8597:12372:51:-;;;;;;;",
   "deployedSourceMap": "8597:12372:51:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;20830:89;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;20925:42;;;:::i;:::-;;9067:21;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;20830:89;20877:11;20906:6;;20900:12;;20830:89;:::o;20925:42::-;:::o;9067:21::-;;;;:::o;7:77:69:-;44:7;73:5;62:16;;7:77;;;:::o;90:118::-;177:24;195:5;177:24;:::i;:::-;172:3;165:37;90:118;;:::o;214:222::-;307:4;345:2;334:9;330:18;322:26;;358:71;426:1;415:9;411:17;402:6;358:71;:::i;:::-;214:222;;;;:::o",
   "source": "// SPDX-License-Identifier: GPL-3.0\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//\n//      MMWKd:..                                                                                    ..:dKWMM\n//      MKl.                                                                                            .lKW\n//      O'       ..''''''''''''.     .''''''.     .'''''.      .''''''''''''''.     .''''''''''''..       'O\n//      '     .ckKNNWNWWWWWWWWWk.   .xNWWNWNl    ,0WWWWW0,     lNWWWWWWWWWNWNk'    ;0NNNWWWWWWWWNNKkc.     '\n//           ,OWMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMMMM0,    ;KMMMMMMMMMMMMMMMMWO,\n//          .kMMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMMM0,    ;KMMMMMMMMMMMMMMMMMMMk.\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMM0,    :KMMMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMM0,    :KMMMMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMM0,    ;0NNWWMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMM0,     .'.',;lkNMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMK;              ,kWMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMX:    .:oxxdc'    .dWMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMWd.   ,OWMMMMMXl.   '0MMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMX;   .kMMMMMMMMK,   .xMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMM0'   .OMMMMMMMMX;   .xMMMMMMMMMMMM0'\n//          .OMMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMK,    lNMMMMMMWx.   '0MMMMMMMMMMMMO.\n//           lNMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMWd.   .:x0KKKkc.   .dWMMMMMMMMMMMNl\n//      .    .c0WMMMMMMMMMMMMMMO.   .kMMMMMWo    ,KMMMMMK,     lWMMMMNd.     ....     .xNMMMMMMMMMMW0c.    .\n//      l      .,lddxxxxxxxxxxxc.    :xxxxxd,    .lxxxxxl.     ,dxxxxxd:.            .cdxxxxxxxxddl,.      l\n//      No.                                                                                              .oN\n//      MW0l'                                                                                          'l0WM\n//      MMMWKd;.                                                                                    .;dKWMMM\n//\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//                                                                                                                                                                                  //\n//      @dev            ::              Aron Mauritala Ayuk                                                                                                                                          //\n//      @msg            ::              stereo@iii6.xyz                                                                                                                                   //\n//      @github         ::              @stereoIII6\n//      @twitter        ::              @stereoIII6                                                                                                                                              //\n//                                                                                                                                                                                  //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//                                                                                                                                                                                  //\n//      @dev            ::              Juan Xavier Valverde                                                                                                                                    //\n//      @msg            ::              juanxavier@iii6.xyz                                                                                                                               //\n//      @twitter        ::              @JuanXavier                                                                                                                                             //\n//      @github         ::              @JuanXavier                                                                                                                                             //\n//                                                                                                                                                                                  //                                                                                                                                                                                 //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//                                                                                                                                                                                  //\n//      @company        ::              Fractio Holding                                                                                                                                                                       //\n//      @title          ::              iii6 Dia Id Generator                                                                                                                          //\n//      @description    ::              Generates Unique Random Numbers of specific length where each character field can allow values of different bases                                                                                                                          //\n//      @version        ::              0.0.1                                                                                                                                       //\n//      @purpose        ::              Generates Unique Random Dia Ids                                                                                                         //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n\npragma solidity ^0.8.7;\n\nimport \"../Oracles/iii6VRFConsumer.sol\";\nimport \"./iii6Math.sol\";\n\ncontract iiiDiaIdGen is iii6Math {\n    iii6VRFEth private iii6VRFeth;\n    iii6VRFGoerli private iii6VRFgoerli;\n    iii6VRFFantom private iii6VRFfantom;\n    iii6VRFFantomTest private iii6VRFfantomTest;\n    iii6VRFMatic private iii6VRFmatic;\n    iii6VRFMumbai private iii6VRFmumbai;\n    iii6VRFBsc private iii6VRFbsc;\n    iii6VRFChalen private iii6VRFchalen;\n    iii6VRFAvax private iii6VRFavax;\n    iii6VRFFuji private iii6VRFfuji;\n\n    uint256 chid = block.chainid;\n    uint256 public vrf_id;\n\n    constructor() {\n        vrf_id = _setVRFProjectID();\n    }\n\n    function _setVRFProjectID() internal returns (uint256 vrfBase) {\n        // ███████╗████████╗██╗░░██╗  ███╗░░░███╗░█████╗░██╗███╗░░██╗\n        // ██╔════╝╚══██╔══╝██║░░██║  ████╗░████║██╔══██╗██║████╗░██║\n        // █████╗░░░░░██║░░░███████║  ██╔████╔██║███████║██║██╔██╗██║\n        // ██╔══╝░░░░░██║░░░██╔══██║  ██║╚██╔╝██║██╔══██║██║██║╚████║\n        // ███████╗░░░██║░░░██║░░██║  ██║░╚═╝░██║██║░░██║██║██║░╚███║\n        // ╚══════╝░░░╚═╝░░░╚═╝░░╚═╝  ╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝\n        if (chid == 1) {\n            iii6VRFeth = iii6VRFEth(0x0000000000000000000000000000000000000000);\n            vrfBase = iii6VRFeth.requestRandomWords();\n        }\n        // ░██████╗░░█████╗░███████╗██████╗░██╗░░░░░██╗\n        // ██╔════╝░██╔══██╗██╔════╝██╔══██╗██║░░░░░██║\n        // ██║░░██╗░██║░░██║█████╗░░██████╔╝██║░░░░░██║\n        // ██║░░╚██╗██║░░██║██╔══╝░░██╔══██╗██║░░░░░██║\n        // ╚██████╔╝╚█████╔╝███████╗██║░░██║███████╗██║\n        // ░╚═════╝░░╚════╝░╚══════╝╚═╝░░╚═╝╚══════╝╚═╝\n        else if (chid == 5) {\n            iii6VRFgoerli = iii6VRFGoerli(\n                0xd98489240409797BbA3Ad997037571e55555f4E0\n            );\n            vrfBase = iii6VRFgoerli.requestRandomWords();\n        }\n        // ██████╗░░█████╗░██╗░░░░░██╗░░░██╗░██████╗░░█████╗░███╗░░██╗\n        // ██╔══██╗██╔══██╗██║░░░░░╚██╗░██╔╝██╔════╝░██╔══██╗████╗░██║\n        // ██████╔╝██║░░██║██║░░░░░░╚████╔╝░██║░░██╗░██║░░██║██╔██╗██║\n        // ██╔═══╝░██║░░██║██║░░░░░░░╚██╔╝░░██║░░╚██╗██║░░██║██║╚████║\n        // ██║░░░░░╚█████╔╝███████╗░░░██║░░░╚██████╔╝╚█████╔╝██║░╚███║\n        // ╚═╝░░░░░░╚════╝░╚══════╝░░░╚═╝░░░░╚═════╝░░╚════╝░╚═╝░░╚══╝\n        else if (chid == 137) {\n            iii6VRFmatic = iii6VRFMatic(\n                0x8719F9E85aA0627ac9c34926D06C92b677Bd4ca9\n            );\n            vrfBase = iii6VRFmatic.requestRandomWords();\n        }\n        //  ███╗░░░███╗██╗░░░██╗███╗░░░███╗██████╗░░█████╗░██╗\n        //  ████╗░████║██║░░░██║████╗░████║██╔══██╗██╔══██╗██║\n        //  ██╔████╔██║██║░░░██║██╔████╔██║██████╦╝███████║██║\n        //  ██║╚██╔╝██║██║░░░██║██║╚██╔╝██║██╔══██╗██╔══██║██║\n        //  ██║░╚═╝░██║╚██████╔╝██║░╚═╝░██║██████╦╝██║░░██║██║\n        //  ╚═╝░░░░░╚═╝░╚═════╝░╚═╝░░░░░╚═╝╚═════╝░╚═╝░░╚═╝╚═╝\n        else if (chid == 80001) {\n            iii6VRFmumbai = iii6VRFMumbai(\n                0x12c91b97BC2A6d9bFCcd7a7f45d841741490A100\n            );\n            vrfBase = iii6VRFmumbai.requestRandomWords();\n        }\n        // ██████╗░░██████╗░█████╗░\n        // ██╔══██╗██╔════╝██╔══██╗\n        // ██████╦╝╚█████╗░██║░░╚═╝\n        // ██╔══██╗░╚═══██╗██║░░██╗\n        // ██████╦╝██████╔╝╚█████╔╝\n        // ╚═════╝░╚═════╝░░╚════╝░\n        else if (chid == 56) {\n            iii6VRFbsc = iii6VRFBsc(0x0000000000000000000000000000000000000000);\n            vrfBase = iii6VRFbsc.requestRandomWords();\n        }\n        // ░█████╗░██╗░░██╗░█████╗░██╗░░░░░███████╗███╗░░██╗\n        // ██╔══██╗██║░░██║██╔══██╗██║░░░░░██╔════╝████╗░██║\n        // ██║░░╚═╝███████║███████║██║░░░░░█████╗░░██╔██╗██║\n        // ██║░░██╗██╔══██║██╔══██║██║░░░░░██╔══╝░░██║╚████║\n        // ╚█████╔╝██║░░██║██║░░██║███████╗███████╗██║░╚███║\n        // ░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚══════╝╚═╝░░╚══╝\n        else if (chid == 97) {\n            iii6VRFchalen = iii6VRFChalen(\n                0x0000000000000000000000000000000000000000\n            );\n            vrfBase = iii6VRFchalen.requestRandomWords();\n        }\n        // ░█████╗░██╗░░░██╗░█████╗░██╗░░██╗\n        // ██╔══██╗██║░░░██║██╔══██╗╚██╗██╔╝\n        // ███████║╚██╗░██╔╝███████║░╚███╔╝░\n        // ██╔══██║░╚████╔╝░██╔══██║░██╔██╗░\n        // ██║░░██║░░╚██╔╝░░██║░░██║██╔╝╚██╗\n        // ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝\n        else if (chid == 43114) {\n            iii6VRFavax = iii6VRFAvax(\n                0x0000000000000000000000000000000000000000\n            );\n            vrfBase = iii6VRFavax.requestRandomWords();\n        }\n        // ███████╗██╗░░░██╗░░░░░██╗██╗\n        // ██╔════╝██║░░░██║░░░░░██║██║\n        // █████╗░░██║░░░██║░░░░░██║██║\n        // ██╔══╝░░██║░░░██║██╗░░██║██║\n        // ██║░░░░░╚██████╔╝╚█████╔╝██║\n        // ╚═╝░░░░░░╚═════╝░░╚════╝░╚═╝\n        else if (chid == 43113) {\n            iii6VRFfuji = iii6VRFFuji(\n                0x79a5E2bBc6e1EaC0764Bf6F980b4Ec6494A6d8a0\n            );\n            vrfBase = iii6VRFfuji.requestRandomWords();\n        }\n        // ███████╗░█████╗░███╗░░██╗████████╗░█████╗░███╗░░░███╗\n        // ██╔════╝██╔══██╗████╗░██║╚══██╔══╝██╔══██╗████╗░████║\n        // █████╗░░███████║██╔██╗██║░░░██║░░░██║░░██║██╔████╔██║\n        // ██╔══╝░░██╔══██║██║╚████║░░░██║░░░██║░░██║██║╚██╔╝██║\n        // ██║░░░░░██║░░██║██║░╚███║░░░██║░░░╚█████╔╝██║░╚═╝░██║\n        // ╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚══╝░░░╚═╝░░░░╚════╝░╚═╝░░░░░╚═╝\n        else if (chid == 250) {\n            iii6VRFfantom = iii6VRFFantom(\n                0x0000000000000000000000000000000000000000\n            );\n            vrfBase = iii6VRFfantom.requestRandomWords();\n        }\n        // ███████╗████████╗███╗░░░███╗  ████████╗███████╗░██████╗████████╗███╗░░██╗███████╗████████╗\n        // ██╔════╝╚══██╔══╝████╗░████║  ╚══██╔══╝██╔════╝██╔════╝╚══██╔══╝████╗░██║██╔════╝╚══██╔══╝\n        // █████╗░░░░░██║░░░██╔████╔██║  ░░░██║░░░█████╗░░╚█████╗░░░░██║░░░██╔██╗██║█████╗░░░░░██║░░░\n        // ██╔══╝░░░░░██║░░░██║╚██╔╝██║  ░░░██║░░░██╔══╝░░░╚═══██╗░░░██║░░░██║╚████║██╔══╝░░░░░██║░░░\n        // ██║░░░░░░░░██║░░░██║░╚═╝░██║  ░░░██║░░░███████╗██████╔╝░░░██║░░░██║░╚███║███████╗░░░██║░░░\n        // ╚═╝░░░░░░░░╚═╝░░░╚═╝░░░░░╚═╝  ░░░╚═╝░░░╚══════╝╚═════╝░░░░╚═╝░░░╚═╝░░╚══╝╚══════╝░░░╚═╝░░░\n        else if (chid == 4002) {\n            iii6VRFfantomTest = iii6VRFFantomTest(\n                0xaF4C0EE5f1aDF34bCE6b4E2B6D164cA6C6154c74\n            );\n            vrfBase = iii6VRFfantomTest.requestRandomWords();\n        }\n    }\n\n    function getProjectId() external view returns (uint256 vrf) {\n        vrf = vrf_id;\n    }\n\n    function _makeProjectKeypair() external {}\n}\n",
-  "sourcePath": "/Users/iii6/Documents/GitHub/iii6v2/iii6v2/contracts/iii6utils/Math/iii6DiaIdGen.sol",
+  "sourcePath": "/Users/iii6/Documents/GitHub/iii6v2/WRRRZ/contracts/iii6utils/Math/iii6DiaIdGen.sol",
   "ast": {
     "absolutePath": "project:/contracts/iii6utils/Math/iii6DiaIdGen.sol",
     "exportedSymbols": {
@@ -954,51 +954,51 @@
         840
       ],
       "iii6Logs": [
-        8071
+        8082
       ],
       "iii6Math": [
-        7145
+        7156
       ],
       "iii6VRFAvax": [
-        9597
+        9608
       ],
       "iii6VRFBsc": [
-        9839
+        9850
       ],
       "iii6VRFChalen": [
-        9960
+        9971
       ],
       "iii6VRFEth": [
-        8871
+        8882
       ],
       "iii6VRFFantom": [
-        9355
+        9366
       ],
       "iii6VRFFantomTest": [
-        9476
+        9487
       ],
       "iii6VRFFuji": [
-        9718
+        9729
       ],
       "iii6VRFGoerli": [
-        8992
+        9003
       ],
       "iii6VRFMatic": [
-        9234
+        9245
       ],
       "iii6VRFMumbai": [
-        9113
+        9124
       ],
       "iiiDiaIdGen": [
-        6956
+        6967
       ]
     },
-    "id": 6957,
+    "id": 6968,
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 6716,
+        "id": 6727,
         "literals": [
           "solidity",
           "^",
@@ -1011,11 +1011,11 @@
       {
         "absolutePath": "project:/contracts/iii6utils/Oracles/iii6VRFConsumer.sol",
         "file": "../Oracles/iii6VRFConsumer.sol",
-        "id": 6717,
+        "id": 6728,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 6957,
-        "sourceUnit": 9961,
+        "scope": 6968,
+        "sourceUnit": 9972,
         "src": "8530:40:51",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1023,11 +1023,11 @@
       {
         "absolutePath": "project:/contracts/iii6utils/Math/iii6Math.sol",
         "file": "./iii6Math.sol",
-        "id": 6718,
+        "id": 6729,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 6957,
-        "sourceUnit": 7146,
+        "scope": 6968,
+        "sourceUnit": 7157,
         "src": "8571:24:51",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1037,16 +1037,16 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 6719,
+              "id": 6730,
               "name": "iii6Math",
               "nameLocations": [
                 "8621:8:51"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 7145,
+              "referencedDeclaration": 7156,
               "src": "8621:8:51"
             },
-            "id": 6720,
+            "id": 6731,
             "nodeType": "InheritanceSpecifier",
             "src": "8621:8:51"
           }
@@ -1055,10 +1055,10 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 6956,
+        "id": 6967,
         "linearizedBaseContracts": [
-          6956,
-          7145
+          6967,
+          7156
         ],
         "name": "iiiDiaIdGen",
         "nameLocation": "8606:11:51",
@@ -1066,36 +1066,36 @@
         "nodes": [
           {
             "constant": false,
-            "id": 6723,
+            "id": 6734,
             "mutability": "mutable",
             "name": "iii6VRFeth",
             "nameLocation": "8655:10:51",
             "nodeType": "VariableDeclaration",
-            "scope": 6956,
+            "scope": 6967,
             "src": "8636:29:51",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_iii6VRFEth_$8871",
+              "typeIdentifier": "t_contract$_iii6VRFEth_$8882",
               "typeString": "contract iii6VRFEth"
             },
             "typeName": {
-              "id": 6722,
+              "id": 6733,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 6721,
+                "id": 6732,
                 "name": "iii6VRFEth",
                 "nameLocations": [
                   "8636:10:51"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 8871,
+                "referencedDeclaration": 8882,
                 "src": "8636:10:51"
               },
-              "referencedDeclaration": 8871,
+              "referencedDeclaration": 8882,
               "src": "8636:10:51",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_iii6VRFEth_$8871",
+                "typeIdentifier": "t_contract$_iii6VRFEth_$8882",
                 "typeString": "contract iii6VRFEth"
               }
             },
@@ -1103,36 +1103,36 @@
           },
           {
             "constant": false,
-            "id": 6726,
+            "id": 6737,
             "mutability": "mutable",
             "name": "iii6VRFgoerli",
             "nameLocation": "8693:13:51",
             "nodeType": "VariableDeclaration",
-            "scope": 6956,
+            "scope": 6967,
             "src": "8671:35:51",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_iii6VRFGoerli_$8992",
+              "typeIdentifier": "t_contract$_iii6VRFGoerli_$9003",
               "typeString": "contract iii6VRFGoerli"
             },
             "typeName": {
-              "id": 6725,
+              "id": 6736,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 6724,
+                "id": 6735,
                 "name": "iii6VRFGoerli",
                 "nameLocations": [
                   "8671:13:51"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 8992,
+                "referencedDeclaration": 9003,
                 "src": "8671:13:51"
               },
-              "referencedDeclaration": 8992,
+              "referencedDeclaration": 9003,
               "src": "8671:13:51",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_iii6VRFGoerli_$8992",
+                "typeIdentifier": "t_contract$_iii6VRFGoerli_$9003",
                 "typeString": "contract iii6VRFGoerli"
               }
             },
@@ -1140,36 +1140,36 @@
           },
           {
             "constant": false,
-            "id": 6729,
+            "id": 6740,
             "mutability": "mutable",
             "name": "iii6VRFfantom",
             "nameLocation": "8734:13:51",
             "nodeType": "VariableDeclaration",
-            "scope": 6956,
+            "scope": 6967,
             "src": "8712:35:51",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_iii6VRFFantom_$9355",
+              "typeIdentifier": "t_contract$_iii6VRFFantom_$9366",
               "typeString": "contract iii6VRFFantom"
             },
             "typeName": {
-              "id": 6728,
+              "id": 6739,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 6727,
+                "id": 6738,
                 "name": "iii6VRFFantom",
                 "nameLocations": [
                   "8712:13:51"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 9355,
+                "referencedDeclaration": 9366,
                 "src": "8712:13:51"
               },
-              "referencedDeclaration": 9355,
+              "referencedDeclaration": 9366,
               "src": "8712:13:51",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_iii6VRFFantom_$9355",
+                "typeIdentifier": "t_contract$_iii6VRFFantom_$9366",
                 "typeString": "contract iii6VRFFantom"
               }
             },
@@ -1177,36 +1177,36 @@
           },
           {
             "constant": false,
-            "id": 6732,
+            "id": 6743,
             "mutability": "mutable",
             "name": "iii6VRFfantomTest",
             "nameLocation": "8779:17:51",
             "nodeType": "VariableDeclaration",
-            "scope": 6956,
+            "scope": 6967,
             "src": "8753:43:51",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_iii6VRFFantomTest_$9476",
+              "typeIdentifier": "t_contract$_iii6VRFFantomTest_$9487",
               "typeString": "contract iii6VRFFantomTest"
             },
             "typeName": {
-              "id": 6731,
+              "id": 6742,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 6730,
+                "id": 6741,
                 "name": "iii6VRFFantomTest",
                 "nameLocations": [
                   "8753:17:51"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 9476,
+                "referencedDeclaration": 9487,
                 "src": "8753:17:51"
               },
-              "referencedDeclaration": 9476,
+              "referencedDeclaration": 9487,
               "src": "8753:17:51",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_iii6VRFFantomTest_$9476",
+                "typeIdentifier": "t_contract$_iii6VRFFantomTest_$9487",
                 "typeString": "contract iii6VRFFantomTest"
               }
             },
@@ -1214,36 +1214,36 @@
           },
           {
             "constant": false,
-            "id": 6735,
+            "id": 6746,
             "mutability": "mutable",
             "name": "iii6VRFmatic",
             "nameLocation": "8823:12:51",
             "nodeType": "VariableDeclaration",
-            "scope": 6956,
+            "scope": 6967,
             "src": "8802:33:51",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_iii6VRFMatic_$9234",
+              "typeIdentifier": "t_contract$_iii6VRFMatic_$9245",
               "typeString": "contract iii6VRFMatic"
             },
             "typeName": {
-              "id": 6734,
+              "id": 6745,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 6733,
+                "id": 6744,
                 "name": "iii6VRFMatic",
                 "nameLocations": [
                   "8802:12:51"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 9234,
+                "referencedDeclaration": 9245,
                 "src": "8802:12:51"
               },
-              "referencedDeclaration": 9234,
+              "referencedDeclaration": 9245,
               "src": "8802:12:51",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_iii6VRFMatic_$9234",
+                "typeIdentifier": "t_contract$_iii6VRFMatic_$9245",
                 "typeString": "contract iii6VRFMatic"
               }
             },
@@ -1251,36 +1251,36 @@
           },
           {
             "constant": false,
-            "id": 6738,
+            "id": 6749,
             "mutability": "mutable",
             "name": "iii6VRFmumbai",
             "nameLocation": "8863:13:51",
             "nodeType": "VariableDeclaration",
-            "scope": 6956,
+            "scope": 6967,
             "src": "8841:35:51",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_iii6VRFMumbai_$9113",
+              "typeIdentifier": "t_contract$_iii6VRFMumbai_$9124",
               "typeString": "contract iii6VRFMumbai"
             },
             "typeName": {
-              "id": 6737,
+              "id": 6748,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 6736,
+                "id": 6747,
                 "name": "iii6VRFMumbai",
                 "nameLocations": [
                   "8841:13:51"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 9113,
+                "referencedDeclaration": 9124,
                 "src": "8841:13:51"
               },
-              "referencedDeclaration": 9113,
+              "referencedDeclaration": 9124,
               "src": "8841:13:51",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_iii6VRFMumbai_$9113",
+                "typeIdentifier": "t_contract$_iii6VRFMumbai_$9124",
                 "typeString": "contract iii6VRFMumbai"
               }
             },
@@ -1288,36 +1288,36 @@
           },
           {
             "constant": false,
-            "id": 6741,
+            "id": 6752,
             "mutability": "mutable",
             "name": "iii6VRFbsc",
             "nameLocation": "8901:10:51",
             "nodeType": "VariableDeclaration",
-            "scope": 6956,
+            "scope": 6967,
             "src": "8882:29:51",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_iii6VRFBsc_$9839",
+              "typeIdentifier": "t_contract$_iii6VRFBsc_$9850",
               "typeString": "contract iii6VRFBsc"
             },
             "typeName": {
-              "id": 6740,
+              "id": 6751,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 6739,
+                "id": 6750,
                 "name": "iii6VRFBsc",
                 "nameLocations": [
                   "8882:10:51"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 9839,
+                "referencedDeclaration": 9850,
                 "src": "8882:10:51"
               },
-              "referencedDeclaration": 9839,
+              "referencedDeclaration": 9850,
               "src": "8882:10:51",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_iii6VRFBsc_$9839",
+                "typeIdentifier": "t_contract$_iii6VRFBsc_$9850",
                 "typeString": "contract iii6VRFBsc"
               }
             },
@@ -1325,36 +1325,36 @@
           },
           {
             "constant": false,
-            "id": 6744,
+            "id": 6755,
             "mutability": "mutable",
             "name": "iii6VRFchalen",
             "nameLocation": "8939:13:51",
             "nodeType": "VariableDeclaration",
-            "scope": 6956,
+            "scope": 6967,
             "src": "8917:35:51",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_iii6VRFChalen_$9960",
+              "typeIdentifier": "t_contract$_iii6VRFChalen_$9971",
               "typeString": "contract iii6VRFChalen"
             },
             "typeName": {
-              "id": 6743,
+              "id": 6754,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 6742,
+                "id": 6753,
                 "name": "iii6VRFChalen",
                 "nameLocations": [
                   "8917:13:51"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 9960,
+                "referencedDeclaration": 9971,
                 "src": "8917:13:51"
               },
-              "referencedDeclaration": 9960,
+              "referencedDeclaration": 9971,
               "src": "8917:13:51",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_iii6VRFChalen_$9960",
+                "typeIdentifier": "t_contract$_iii6VRFChalen_$9971",
                 "typeString": "contract iii6VRFChalen"
               }
             },
@@ -1362,36 +1362,36 @@
           },
           {
             "constant": false,
-            "id": 6747,
+            "id": 6758,
             "mutability": "mutable",
             "name": "iii6VRFavax",
             "nameLocation": "8978:11:51",
             "nodeType": "VariableDeclaration",
-            "scope": 6956,
+            "scope": 6967,
             "src": "8958:31:51",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_iii6VRFAvax_$9597",
+              "typeIdentifier": "t_contract$_iii6VRFAvax_$9608",
               "typeString": "contract iii6VRFAvax"
             },
             "typeName": {
-              "id": 6746,
+              "id": 6757,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 6745,
+                "id": 6756,
                 "name": "iii6VRFAvax",
                 "nameLocations": [
                   "8958:11:51"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 9597,
+                "referencedDeclaration": 9608,
                 "src": "8958:11:51"
               },
-              "referencedDeclaration": 9597,
+              "referencedDeclaration": 9608,
               "src": "8958:11:51",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_iii6VRFAvax_$9597",
+                "typeIdentifier": "t_contract$_iii6VRFAvax_$9608",
                 "typeString": "contract iii6VRFAvax"
               }
             },
@@ -1399,36 +1399,36 @@
           },
           {
             "constant": false,
-            "id": 6750,
+            "id": 6761,
             "mutability": "mutable",
             "name": "iii6VRFfuji",
             "nameLocation": "9015:11:51",
             "nodeType": "VariableDeclaration",
-            "scope": 6956,
+            "scope": 6967,
             "src": "8995:31:51",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_iii6VRFFuji_$9718",
+              "typeIdentifier": "t_contract$_iii6VRFFuji_$9729",
               "typeString": "contract iii6VRFFuji"
             },
             "typeName": {
-              "id": 6749,
+              "id": 6760,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 6748,
+                "id": 6759,
                 "name": "iii6VRFFuji",
                 "nameLocations": [
                   "8995:11:51"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 9718,
+                "referencedDeclaration": 9729,
                 "src": "8995:11:51"
               },
-              "referencedDeclaration": 9718,
+              "referencedDeclaration": 9729,
               "src": "8995:11:51",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_iii6VRFFuji_$9718",
+                "typeIdentifier": "t_contract$_iii6VRFFuji_$9729",
                 "typeString": "contract iii6VRFFuji"
               }
             },
@@ -1436,12 +1436,12 @@
           },
           {
             "constant": false,
-            "id": 6754,
+            "id": 6765,
             "mutability": "mutable",
             "name": "chid",
             "nameLocation": "9041:4:51",
             "nodeType": "VariableDeclaration",
-            "scope": 6956,
+            "scope": 6967,
             "src": "9033:28:51",
             "stateVariable": true,
             "storageLocation": "default",
@@ -1450,7 +1450,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 6751,
+              "id": 6762,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "9033:7:51",
@@ -1461,7 +1461,7 @@
             },
             "value": {
               "expression": {
-                "id": 6752,
+                "id": 6763,
                 "name": "block",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
@@ -1472,7 +1472,7 @@
                   "typeString": "block"
                 }
               },
-              "id": 6753,
+              "id": 6764,
               "isConstant": false,
               "isLValue": false,
               "isPure": false,
@@ -1491,12 +1491,12 @@
           {
             "constant": false,
             "functionSelector": "512de73a",
-            "id": 6756,
+            "id": 6767,
             "mutability": "mutable",
             "name": "vrf_id",
             "nameLocation": "9082:6:51",
             "nodeType": "VariableDeclaration",
-            "scope": 6956,
+            "scope": 6967,
             "src": "9067:21:51",
             "stateVariable": true,
             "storageLocation": "default",
@@ -1505,7 +1505,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 6755,
+              "id": 6766,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "9067:7:51",
@@ -1518,23 +1518,23 @@
           },
           {
             "body": {
-              "id": 6764,
+              "id": 6775,
               "nodeType": "Block",
               "src": "9109:44:51",
               "statements": [
                 {
                   "expression": {
-                    "id": 6762,
+                    "id": 6773,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 6759,
+                      "id": 6770,
                       "name": "vrf_id",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 6756,
+                      "referencedDeclaration": 6767,
                       "src": "9119:6:51",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -1547,18 +1547,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 6760,
+                        "id": 6771,
                         "name": "_setVRFProjectID",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 6941,
+                        "referencedDeclaration": 6952,
                         "src": "9128:16:51",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_nonpayable$__$returns$_t_uint256_$",
                           "typeString": "function () returns (uint256)"
                         }
                       },
-                      "id": 6761,
+                      "id": 6772,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1580,13 +1580,13 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 6763,
+                  "id": 6774,
                   "nodeType": "ExpressionStatement",
                   "src": "9119:27:51"
                 }
               ]
             },
-            "id": 6765,
+            "id": 6776,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -1594,18 +1594,18 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 6757,
+              "id": 6768,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9106:2:51"
             },
             "returnParameters": {
-              "id": 6758,
+              "id": 6769,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9109:0:51"
             },
-            "scope": 6956,
+            "scope": 6967,
             "src": "9095:58:51",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -1613,7 +1613,7 @@
           },
           {
             "body": {
-              "id": 6940,
+              "id": 6951,
               "nodeType": "Block",
               "src": "9222:11602:51",
               "statements": [
@@ -1623,17 +1623,17 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 6772,
+                    "id": 6783,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
-                      "id": 6770,
+                      "id": 6781,
                       "name": "chid",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 6754,
+                      "referencedDeclaration": 6765,
                       "src": "10352:4:51",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -1644,7 +1644,7 @@
                     "operator": "==",
                     "rightExpression": {
                       "hexValue": "31",
-                      "id": 6771,
+                      "id": 6782,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -1670,17 +1670,17 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 6788,
+                      "id": 6799,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftExpression": {
-                        "id": 6786,
+                        "id": 6797,
                         "name": "chid",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 6754,
+                        "referencedDeclaration": 6765,
                         "src": "11392:4:51",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1691,7 +1691,7 @@
                       "operator": "==",
                       "rightExpression": {
                         "hexValue": "35",
-                        "id": 6787,
+                        "id": 6798,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -1717,17 +1717,17 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 6804,
+                        "id": 6815,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
-                          "id": 6802,
+                          "id": 6813,
                           "name": "chid",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 6754,
+                          "referencedDeclaration": 6765,
                           "src": "12741:4:51",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -1738,7 +1738,7 @@
                         "operator": "==",
                         "rightExpression": {
                           "hexValue": "313337",
-                          "id": 6803,
+                          "id": 6814,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -1764,17 +1764,17 @@
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           },
-                          "id": 6820,
+                          "id": 6831,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftExpression": {
-                            "id": 6818,
+                            "id": 6829,
                             "name": "chid",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 6754,
+                            "referencedDeclaration": 6765,
                             "src": "13933:4:51",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -1785,7 +1785,7 @@
                           "operator": "==",
                           "rightExpression": {
                             "hexValue": "3830303031",
-                            "id": 6819,
+                            "id": 6830,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -1811,17 +1811,17 @@
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             },
-                            "id": 6836,
+                            "id": 6847,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "leftExpression": {
-                              "id": 6834,
+                              "id": 6845,
                               "name": "chid",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 6754,
+                              "referencedDeclaration": 6765,
                               "src": "14656:4:51",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
@@ -1832,7 +1832,7 @@
                             "operator": "==",
                             "rightExpression": {
                               "hexValue": "3536",
-                              "id": 6835,
+                              "id": 6846,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": true,
@@ -1858,17 +1858,17 @@
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
                               },
-                              "id": 6852,
+                              "id": 6863,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
                               "lValueRequested": false,
                               "leftExpression": {
-                                "id": 6850,
+                                "id": 6861,
                                 "name": "chid",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 6754,
+                                "referencedDeclaration": 6765,
                                 "src": "15787:4:51",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -1879,7 +1879,7 @@
                               "operator": "==",
                               "rightExpression": {
                                 "hexValue": "3937",
-                                "id": 6851,
+                                "id": 6862,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": true,
@@ -1905,17 +1905,17 @@
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
                                 },
-                                "id": 6868,
+                                "id": 6879,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "leftExpression": {
-                                  "id": 6866,
+                                  "id": 6877,
                                   "name": "chid",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 6754,
+                                  "referencedDeclaration": 6765,
                                   "src": "16669:4:51",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
@@ -1926,7 +1926,7 @@
                                 "operator": "==",
                                 "rightExpression": {
                                   "hexValue": "3433313134",
-                                  "id": 6867,
+                                  "id": 6878,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": true,
@@ -1952,17 +1952,17 @@
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
                                   },
-                                  "id": 6884,
+                                  "id": 6895,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "leftExpression": {
-                                    "id": 6882,
+                                    "id": 6893,
                                     "name": "chid",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 6754,
+                                    "referencedDeclaration": 6765,
                                     "src": "17458:4:51",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_uint256",
@@ -1973,7 +1973,7 @@
                                   "operator": "==",
                                   "rightExpression": {
                                     "hexValue": "3433313133",
-                                    "id": 6883,
+                                    "id": 6894,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": true,
@@ -1999,17 +1999,17 @@
                                       "typeIdentifier": "t_uint256",
                                       "typeString": "uint256"
                                     },
-                                    "id": 6900,
+                                    "id": 6911,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
                                     "lValueRequested": false,
                                     "leftExpression": {
-                                      "id": 6898,
+                                      "id": 6909,
                                       "name": "chid",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 6754,
+                                      "referencedDeclaration": 6765,
                                       "src": "18697:4:51",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_uint256",
@@ -2020,7 +2020,7 @@
                                     "operator": "==",
                                     "rightExpression": {
                                       "hexValue": "323530",
-                                      "id": 6899,
+                                      "id": 6910,
                                       "isConstant": false,
                                       "isLValue": false,
                                       "isPure": true,
@@ -2046,17 +2046,17 @@
                                         "typeIdentifier": "t_uint256",
                                         "typeString": "uint256"
                                       },
-                                      "id": 6916,
+                                      "id": 6927,
                                       "isConstant": false,
                                       "isLValue": false,
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "leftExpression": {
-                                        "id": 6914,
+                                        "id": 6925,
                                         "name": "chid",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 6754,
+                                        "referencedDeclaration": 6765,
                                         "src": "20606:4:51",
                                         "typeDescriptions": {
                                           "typeIdentifier": "t_uint256",
@@ -2067,7 +2067,7 @@
                                       "operator": "==",
                                       "rightExpression": {
                                         "hexValue": "34303032",
-                                        "id": 6915,
+                                        "id": 6926,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": true,
@@ -2087,30 +2087,30 @@
                                         "typeString": "bool"
                                       }
                                     },
-                                    "id": 6930,
+                                    "id": 6941,
                                     "nodeType": "IfStatement",
                                     "src": "20602:216:51",
                                     "trueBody": {
-                                      "id": 6929,
+                                      "id": 6940,
                                       "nodeType": "Block",
                                       "src": "20620:198:51",
                                       "statements": [
                                         {
                                           "expression": {
-                                            "id": 6921,
+                                            "id": 6932,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
                                             "lValueRequested": false,
                                             "leftHandSide": {
-                                              "id": 6917,
+                                              "id": 6928,
                                               "name": "iii6VRFfantomTest",
                                               "nodeType": "Identifier",
                                               "overloadedDeclarations": [],
-                                              "referencedDeclaration": 6732,
+                                              "referencedDeclaration": 6743,
                                               "src": "20634:17:51",
                                               "typeDescriptions": {
-                                                "typeIdentifier": "t_contract$_iii6VRFFantomTest_$9476",
+                                                "typeIdentifier": "t_contract$_iii6VRFFantomTest_$9487",
                                                 "typeString": "contract iii6VRFFantomTest"
                                               }
                                             },
@@ -2120,7 +2120,7 @@
                                               "arguments": [
                                                 {
                                                   "hexValue": "307861463443304545356631614446333462434536623445324236443136346341364336313534633734",
-                                                  "id": 6919,
+                                                  "id": 6930,
                                                   "isConstant": false,
                                                   "isLValue": false,
                                                   "isPure": true,
@@ -2142,18 +2142,18 @@
                                                     "typeString": "address"
                                                   }
                                                 ],
-                                                "id": 6918,
+                                                "id": 6929,
                                                 "name": "iii6VRFFantomTest",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 9476,
+                                                "referencedDeclaration": 9487,
                                                 "src": "20654:17:51",
                                                 "typeDescriptions": {
-                                                  "typeIdentifier": "t_type$_t_contract$_iii6VRFFantomTest_$9476_$",
+                                                  "typeIdentifier": "t_type$_t_contract$_iii6VRFFantomTest_$9487_$",
                                                   "typeString": "type(contract iii6VRFFantomTest)"
                                                 }
                                               },
-                                              "id": 6920,
+                                              "id": 6931,
                                               "isConstant": false,
                                               "isLValue": false,
                                               "isPure": true,
@@ -2165,33 +2165,33 @@
                                               "src": "20654:91:51",
                                               "tryCall": false,
                                               "typeDescriptions": {
-                                                "typeIdentifier": "t_contract$_iii6VRFFantomTest_$9476",
+                                                "typeIdentifier": "t_contract$_iii6VRFFantomTest_$9487",
                                                 "typeString": "contract iii6VRFFantomTest"
                                               }
                                             },
                                             "src": "20634:111:51",
                                             "typeDescriptions": {
-                                              "typeIdentifier": "t_contract$_iii6VRFFantomTest_$9476",
+                                              "typeIdentifier": "t_contract$_iii6VRFFantomTest_$9487",
                                               "typeString": "contract iii6VRFFantomTest"
                                             }
                                           },
-                                          "id": 6922,
+                                          "id": 6933,
                                           "nodeType": "ExpressionStatement",
                                           "src": "20634:111:51"
                                         },
                                         {
                                           "expression": {
-                                            "id": 6927,
+                                            "id": 6938,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
                                             "lValueRequested": false,
                                             "leftHandSide": {
-                                              "id": 6923,
+                                              "id": 6934,
                                               "name": "vrfBase",
                                               "nodeType": "Identifier",
                                               "overloadedDeclarations": [],
-                                              "referencedDeclaration": 6768,
+                                              "referencedDeclaration": 6779,
                                               "src": "20759:7:51",
                                               "typeDescriptions": {
                                                 "typeIdentifier": "t_uint256",
@@ -2205,18 +2205,18 @@
                                               "expression": {
                                                 "argumentTypes": [],
                                                 "expression": {
-                                                  "id": 6924,
+                                                  "id": 6935,
                                                   "name": "iii6VRFfantomTest",
                                                   "nodeType": "Identifier",
                                                   "overloadedDeclarations": [],
-                                                  "referencedDeclaration": 6732,
+                                                  "referencedDeclaration": 6743,
                                                   "src": "20769:17:51",
                                                   "typeDescriptions": {
-                                                    "typeIdentifier": "t_contract$_iii6VRFFantomTest_$9476",
+                                                    "typeIdentifier": "t_contract$_iii6VRFFantomTest_$9487",
                                                     "typeString": "contract iii6VRFFantomTest"
                                                   }
                                                 },
-                                                "id": 6925,
+                                                "id": 6936,
                                                 "isConstant": false,
                                                 "isLValue": false,
                                                 "isPure": false,
@@ -2224,14 +2224,14 @@
                                                 "memberLocation": "20787:18:51",
                                                 "memberName": "requestRandomWords",
                                                 "nodeType": "MemberAccess",
-                                                "referencedDeclaration": 9459,
+                                                "referencedDeclaration": 9470,
                                                 "src": "20769:36:51",
                                                 "typeDescriptions": {
                                                   "typeIdentifier": "t_function_external_nonpayable$__$returns$_t_uint256_$",
                                                   "typeString": "function () external returns (uint256)"
                                                 }
                                               },
-                                              "id": 6926,
+                                              "id": 6937,
                                               "isConstant": false,
                                               "isLValue": false,
                                               "isPure": false,
@@ -2253,37 +2253,37 @@
                                               "typeString": "uint256"
                                             }
                                           },
-                                          "id": 6928,
+                                          "id": 6939,
                                           "nodeType": "ExpressionStatement",
                                           "src": "20759:48:51"
                                         }
                                       ]
                                     }
                                   },
-                                  "id": 6931,
+                                  "id": 6942,
                                   "nodeType": "IfStatement",
                                   "src": "18693:2125:51",
                                   "trueBody": {
-                                    "id": 6913,
+                                    "id": 6924,
                                     "nodeType": "Block",
                                     "src": "18710:186:51",
                                     "statements": [
                                       {
                                         "expression": {
-                                          "id": 6905,
+                                          "id": 6916,
                                           "isConstant": false,
                                           "isLValue": false,
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "leftHandSide": {
-                                            "id": 6901,
+                                            "id": 6912,
                                             "name": "iii6VRFfantom",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 6729,
+                                            "referencedDeclaration": 6740,
                                             "src": "18724:13:51",
                                             "typeDescriptions": {
-                                              "typeIdentifier": "t_contract$_iii6VRFFantom_$9355",
+                                              "typeIdentifier": "t_contract$_iii6VRFFantom_$9366",
                                               "typeString": "contract iii6VRFFantom"
                                             }
                                           },
@@ -2293,7 +2293,7 @@
                                             "arguments": [
                                               {
                                                 "hexValue": "307830303030303030303030303030303030303030303030303030303030303030303030303030303030",
-                                                "id": 6903,
+                                                "id": 6914,
                                                 "isConstant": false,
                                                 "isLValue": false,
                                                 "isPure": true,
@@ -2315,18 +2315,18 @@
                                                   "typeString": "address"
                                                 }
                                               ],
-                                              "id": 6902,
+                                              "id": 6913,
                                               "name": "iii6VRFFantom",
                                               "nodeType": "Identifier",
                                               "overloadedDeclarations": [],
-                                              "referencedDeclaration": 9355,
+                                              "referencedDeclaration": 9366,
                                               "src": "18740:13:51",
                                               "typeDescriptions": {
-                                                "typeIdentifier": "t_type$_t_contract$_iii6VRFFantom_$9355_$",
+                                                "typeIdentifier": "t_type$_t_contract$_iii6VRFFantom_$9366_$",
                                                 "typeString": "type(contract iii6VRFFantom)"
                                               }
                                             },
-                                            "id": 6904,
+                                            "id": 6915,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": true,
@@ -2338,33 +2338,33 @@
                                             "src": "18740:87:51",
                                             "tryCall": false,
                                             "typeDescriptions": {
-                                              "typeIdentifier": "t_contract$_iii6VRFFantom_$9355",
+                                              "typeIdentifier": "t_contract$_iii6VRFFantom_$9366",
                                               "typeString": "contract iii6VRFFantom"
                                             }
                                           },
                                           "src": "18724:103:51",
                                           "typeDescriptions": {
-                                            "typeIdentifier": "t_contract$_iii6VRFFantom_$9355",
+                                            "typeIdentifier": "t_contract$_iii6VRFFantom_$9366",
                                             "typeString": "contract iii6VRFFantom"
                                           }
                                         },
-                                        "id": 6906,
+                                        "id": 6917,
                                         "nodeType": "ExpressionStatement",
                                         "src": "18724:103:51"
                                       },
                                       {
                                         "expression": {
-                                          "id": 6911,
+                                          "id": 6922,
                                           "isConstant": false,
                                           "isLValue": false,
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "leftHandSide": {
-                                            "id": 6907,
+                                            "id": 6918,
                                             "name": "vrfBase",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 6768,
+                                            "referencedDeclaration": 6779,
                                             "src": "18841:7:51",
                                             "typeDescriptions": {
                                               "typeIdentifier": "t_uint256",
@@ -2378,18 +2378,18 @@
                                             "expression": {
                                               "argumentTypes": [],
                                               "expression": {
-                                                "id": 6908,
+                                                "id": 6919,
                                                 "name": "iii6VRFfantom",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 6729,
+                                                "referencedDeclaration": 6740,
                                                 "src": "18851:13:51",
                                                 "typeDescriptions": {
-                                                  "typeIdentifier": "t_contract$_iii6VRFFantom_$9355",
+                                                  "typeIdentifier": "t_contract$_iii6VRFFantom_$9366",
                                                   "typeString": "contract iii6VRFFantom"
                                                 }
                                               },
-                                              "id": 6909,
+                                              "id": 6920,
                                               "isConstant": false,
                                               "isLValue": false,
                                               "isPure": false,
@@ -2397,14 +2397,14 @@
                                               "memberLocation": "18865:18:51",
                                               "memberName": "requestRandomWords",
                                               "nodeType": "MemberAccess",
-                                              "referencedDeclaration": 9338,
+                                              "referencedDeclaration": 9349,
                                               "src": "18851:32:51",
                                               "typeDescriptions": {
                                                 "typeIdentifier": "t_function_external_nonpayable$__$returns$_t_uint256_$",
                                                 "typeString": "function () external returns (uint256)"
                                               }
                                             },
-                                            "id": 6910,
+                                            "id": 6921,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
@@ -2426,37 +2426,37 @@
                                             "typeString": "uint256"
                                           }
                                         },
-                                        "id": 6912,
+                                        "id": 6923,
                                         "nodeType": "ExpressionStatement",
                                         "src": "18841:44:51"
                                       }
                                     ]
                                   }
                                 },
-                                "id": 6932,
+                                "id": 6943,
                                 "nodeType": "IfStatement",
                                 "src": "17454:3364:51",
                                 "trueBody": {
-                                  "id": 6897,
+                                  "id": 6908,
                                   "nodeType": "Block",
                                   "src": "17473:180:51",
                                   "statements": [
                                     {
                                       "expression": {
-                                        "id": 6889,
+                                        "id": 6900,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                          "id": 6885,
+                                          "id": 6896,
                                           "name": "iii6VRFfuji",
                                           "nodeType": "Identifier",
                                           "overloadedDeclarations": [],
-                                          "referencedDeclaration": 6750,
+                                          "referencedDeclaration": 6761,
                                           "src": "17487:11:51",
                                           "typeDescriptions": {
-                                            "typeIdentifier": "t_contract$_iii6VRFFuji_$9718",
+                                            "typeIdentifier": "t_contract$_iii6VRFFuji_$9729",
                                             "typeString": "contract iii6VRFFuji"
                                           }
                                         },
@@ -2466,7 +2466,7 @@
                                           "arguments": [
                                             {
                                               "hexValue": "307837396135453262426336653145614330373634426636463938306234456336343934413664386130",
-                                              "id": 6887,
+                                              "id": 6898,
                                               "isConstant": false,
                                               "isLValue": false,
                                               "isPure": true,
@@ -2488,18 +2488,18 @@
                                                 "typeString": "address"
                                               }
                                             ],
-                                            "id": 6886,
+                                            "id": 6897,
                                             "name": "iii6VRFFuji",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 9718,
+                                            "referencedDeclaration": 9729,
                                             "src": "17501:11:51",
                                             "typeDescriptions": {
-                                              "typeIdentifier": "t_type$_t_contract$_iii6VRFFuji_$9718_$",
+                                              "typeIdentifier": "t_type$_t_contract$_iii6VRFFuji_$9729_$",
                                               "typeString": "type(contract iii6VRFFuji)"
                                             }
                                           },
-                                          "id": 6888,
+                                          "id": 6899,
                                           "isConstant": false,
                                           "isLValue": false,
                                           "isPure": true,
@@ -2511,33 +2511,33 @@
                                           "src": "17501:85:51",
                                           "tryCall": false,
                                           "typeDescriptions": {
-                                            "typeIdentifier": "t_contract$_iii6VRFFuji_$9718",
+                                            "typeIdentifier": "t_contract$_iii6VRFFuji_$9729",
                                             "typeString": "contract iii6VRFFuji"
                                           }
                                         },
                                         "src": "17487:99:51",
                                         "typeDescriptions": {
-                                          "typeIdentifier": "t_contract$_iii6VRFFuji_$9718",
+                                          "typeIdentifier": "t_contract$_iii6VRFFuji_$9729",
                                           "typeString": "contract iii6VRFFuji"
                                         }
                                       },
-                                      "id": 6890,
+                                      "id": 6901,
                                       "nodeType": "ExpressionStatement",
                                       "src": "17487:99:51"
                                     },
                                     {
                                       "expression": {
-                                        "id": 6895,
+                                        "id": 6906,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                          "id": 6891,
+                                          "id": 6902,
                                           "name": "vrfBase",
                                           "nodeType": "Identifier",
                                           "overloadedDeclarations": [],
-                                          "referencedDeclaration": 6768,
+                                          "referencedDeclaration": 6779,
                                           "src": "17600:7:51",
                                           "typeDescriptions": {
                                             "typeIdentifier": "t_uint256",
@@ -2551,18 +2551,18 @@
                                           "expression": {
                                             "argumentTypes": [],
                                             "expression": {
-                                              "id": 6892,
+                                              "id": 6903,
                                               "name": "iii6VRFfuji",
                                               "nodeType": "Identifier",
                                               "overloadedDeclarations": [],
-                                              "referencedDeclaration": 6750,
+                                              "referencedDeclaration": 6761,
                                               "src": "17610:11:51",
                                               "typeDescriptions": {
-                                                "typeIdentifier": "t_contract$_iii6VRFFuji_$9718",
+                                                "typeIdentifier": "t_contract$_iii6VRFFuji_$9729",
                                                 "typeString": "contract iii6VRFFuji"
                                               }
                                             },
-                                            "id": 6893,
+                                            "id": 6904,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
@@ -2570,14 +2570,14 @@
                                             "memberLocation": "17622:18:51",
                                             "memberName": "requestRandomWords",
                                             "nodeType": "MemberAccess",
-                                            "referencedDeclaration": 9701,
+                                            "referencedDeclaration": 9712,
                                             "src": "17610:30:51",
                                             "typeDescriptions": {
                                               "typeIdentifier": "t_function_external_nonpayable$__$returns$_t_uint256_$",
                                               "typeString": "function () external returns (uint256)"
                                             }
                                           },
-                                          "id": 6894,
+                                          "id": 6905,
                                           "isConstant": false,
                                           "isLValue": false,
                                           "isPure": false,
@@ -2599,37 +2599,37 @@
                                           "typeString": "uint256"
                                         }
                                       },
-                                      "id": 6896,
+                                      "id": 6907,
                                       "nodeType": "ExpressionStatement",
                                       "src": "17600:42:51"
                                     }
                                   ]
                                 }
                               },
-                              "id": 6933,
+                              "id": 6944,
                               "nodeType": "IfStatement",
                               "src": "16665:4153:51",
                               "trueBody": {
-                                "id": 6881,
+                                "id": 6892,
                                 "nodeType": "Block",
                                 "src": "16684:180:51",
                                 "statements": [
                                   {
                                     "expression": {
-                                      "id": 6873,
+                                      "id": 6884,
                                       "isConstant": false,
                                       "isLValue": false,
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "leftHandSide": {
-                                        "id": 6869,
+                                        "id": 6880,
                                         "name": "iii6VRFavax",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 6747,
+                                        "referencedDeclaration": 6758,
                                         "src": "16698:11:51",
                                         "typeDescriptions": {
-                                          "typeIdentifier": "t_contract$_iii6VRFAvax_$9597",
+                                          "typeIdentifier": "t_contract$_iii6VRFAvax_$9608",
                                           "typeString": "contract iii6VRFAvax"
                                         }
                                       },
@@ -2639,7 +2639,7 @@
                                         "arguments": [
                                           {
                                             "hexValue": "307830303030303030303030303030303030303030303030303030303030303030303030303030303030",
-                                            "id": 6871,
+                                            "id": 6882,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": true,
@@ -2661,18 +2661,18 @@
                                               "typeString": "address"
                                             }
                                           ],
-                                          "id": 6870,
+                                          "id": 6881,
                                           "name": "iii6VRFAvax",
                                           "nodeType": "Identifier",
                                           "overloadedDeclarations": [],
-                                          "referencedDeclaration": 9597,
+                                          "referencedDeclaration": 9608,
                                           "src": "16712:11:51",
                                           "typeDescriptions": {
-                                            "typeIdentifier": "t_type$_t_contract$_iii6VRFAvax_$9597_$",
+                                            "typeIdentifier": "t_type$_t_contract$_iii6VRFAvax_$9608_$",
                                             "typeString": "type(contract iii6VRFAvax)"
                                           }
                                         },
-                                        "id": 6872,
+                                        "id": 6883,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": true,
@@ -2684,33 +2684,33 @@
                                         "src": "16712:85:51",
                                         "tryCall": false,
                                         "typeDescriptions": {
-                                          "typeIdentifier": "t_contract$_iii6VRFAvax_$9597",
+                                          "typeIdentifier": "t_contract$_iii6VRFAvax_$9608",
                                           "typeString": "contract iii6VRFAvax"
                                         }
                                       },
                                       "src": "16698:99:51",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_contract$_iii6VRFAvax_$9597",
+                                        "typeIdentifier": "t_contract$_iii6VRFAvax_$9608",
                                         "typeString": "contract iii6VRFAvax"
                                       }
                                     },
-                                    "id": 6874,
+                                    "id": 6885,
                                     "nodeType": "ExpressionStatement",
                                     "src": "16698:99:51"
                                   },
                                   {
                                     "expression": {
-                                      "id": 6879,
+                                      "id": 6890,
                                       "isConstant": false,
                                       "isLValue": false,
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "leftHandSide": {
-                                        "id": 6875,
+                                        "id": 6886,
                                         "name": "vrfBase",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 6768,
+                                        "referencedDeclaration": 6779,
                                         "src": "16811:7:51",
                                         "typeDescriptions": {
                                           "typeIdentifier": "t_uint256",
@@ -2724,18 +2724,18 @@
                                         "expression": {
                                           "argumentTypes": [],
                                           "expression": {
-                                            "id": 6876,
+                                            "id": 6887,
                                             "name": "iii6VRFavax",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 6747,
+                                            "referencedDeclaration": 6758,
                                             "src": "16821:11:51",
                                             "typeDescriptions": {
-                                              "typeIdentifier": "t_contract$_iii6VRFAvax_$9597",
+                                              "typeIdentifier": "t_contract$_iii6VRFAvax_$9608",
                                               "typeString": "contract iii6VRFAvax"
                                             }
                                           },
-                                          "id": 6877,
+                                          "id": 6888,
                                           "isConstant": false,
                                           "isLValue": false,
                                           "isPure": false,
@@ -2743,14 +2743,14 @@
                                           "memberLocation": "16833:18:51",
                                           "memberName": "requestRandomWords",
                                           "nodeType": "MemberAccess",
-                                          "referencedDeclaration": 9580,
+                                          "referencedDeclaration": 9591,
                                           "src": "16821:30:51",
                                           "typeDescriptions": {
                                             "typeIdentifier": "t_function_external_nonpayable$__$returns$_t_uint256_$",
                                             "typeString": "function () external returns (uint256)"
                                           }
                                         },
-                                        "id": 6878,
+                                        "id": 6889,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -2772,37 +2772,37 @@
                                         "typeString": "uint256"
                                       }
                                     },
-                                    "id": 6880,
+                                    "id": 6891,
                                     "nodeType": "ExpressionStatement",
                                     "src": "16811:42:51"
                                   }
                                 ]
                               }
                             },
-                            "id": 6934,
+                            "id": 6945,
                             "nodeType": "IfStatement",
                             "src": "15783:5035:51",
                             "trueBody": {
-                              "id": 6865,
+                              "id": 6876,
                               "nodeType": "Block",
                               "src": "15799:186:51",
                               "statements": [
                                 {
                                   "expression": {
-                                    "id": 6857,
+                                    "id": 6868,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
                                     "lValueRequested": false,
                                     "leftHandSide": {
-                                      "id": 6853,
+                                      "id": 6864,
                                       "name": "iii6VRFchalen",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 6744,
+                                      "referencedDeclaration": 6755,
                                       "src": "15813:13:51",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_contract$_iii6VRFChalen_$9960",
+                                        "typeIdentifier": "t_contract$_iii6VRFChalen_$9971",
                                         "typeString": "contract iii6VRFChalen"
                                       }
                                     },
@@ -2812,7 +2812,7 @@
                                       "arguments": [
                                         {
                                           "hexValue": "307830303030303030303030303030303030303030303030303030303030303030303030303030303030",
-                                          "id": 6855,
+                                          "id": 6866,
                                           "isConstant": false,
                                           "isLValue": false,
                                           "isPure": true,
@@ -2834,18 +2834,18 @@
                                             "typeString": "address"
                                           }
                                         ],
-                                        "id": 6854,
+                                        "id": 6865,
                                         "name": "iii6VRFChalen",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 9960,
+                                        "referencedDeclaration": 9971,
                                         "src": "15829:13:51",
                                         "typeDescriptions": {
-                                          "typeIdentifier": "t_type$_t_contract$_iii6VRFChalen_$9960_$",
+                                          "typeIdentifier": "t_type$_t_contract$_iii6VRFChalen_$9971_$",
                                           "typeString": "type(contract iii6VRFChalen)"
                                         }
                                       },
-                                      "id": 6856,
+                                      "id": 6867,
                                       "isConstant": false,
                                       "isLValue": false,
                                       "isPure": true,
@@ -2857,33 +2857,33 @@
                                       "src": "15829:87:51",
                                       "tryCall": false,
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_contract$_iii6VRFChalen_$9960",
+                                        "typeIdentifier": "t_contract$_iii6VRFChalen_$9971",
                                         "typeString": "contract iii6VRFChalen"
                                       }
                                     },
                                     "src": "15813:103:51",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_iii6VRFChalen_$9960",
+                                      "typeIdentifier": "t_contract$_iii6VRFChalen_$9971",
                                       "typeString": "contract iii6VRFChalen"
                                     }
                                   },
-                                  "id": 6858,
+                                  "id": 6869,
                                   "nodeType": "ExpressionStatement",
                                   "src": "15813:103:51"
                                 },
                                 {
                                   "expression": {
-                                    "id": 6863,
+                                    "id": 6874,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
                                     "lValueRequested": false,
                                     "leftHandSide": {
-                                      "id": 6859,
+                                      "id": 6870,
                                       "name": "vrfBase",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 6768,
+                                      "referencedDeclaration": 6779,
                                       "src": "15930:7:51",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_uint256",
@@ -2897,18 +2897,18 @@
                                       "expression": {
                                         "argumentTypes": [],
                                         "expression": {
-                                          "id": 6860,
+                                          "id": 6871,
                                           "name": "iii6VRFchalen",
                                           "nodeType": "Identifier",
                                           "overloadedDeclarations": [],
-                                          "referencedDeclaration": 6744,
+                                          "referencedDeclaration": 6755,
                                           "src": "15940:13:51",
                                           "typeDescriptions": {
-                                            "typeIdentifier": "t_contract$_iii6VRFChalen_$9960",
+                                            "typeIdentifier": "t_contract$_iii6VRFChalen_$9971",
                                             "typeString": "contract iii6VRFChalen"
                                           }
                                         },
-                                        "id": 6861,
+                                        "id": 6872,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -2916,14 +2916,14 @@
                                         "memberLocation": "15954:18:51",
                                         "memberName": "requestRandomWords",
                                         "nodeType": "MemberAccess",
-                                        "referencedDeclaration": 9943,
+                                        "referencedDeclaration": 9954,
                                         "src": "15940:32:51",
                                         "typeDescriptions": {
                                           "typeIdentifier": "t_function_external_nonpayable$__$returns$_t_uint256_$",
                                           "typeString": "function () external returns (uint256)"
                                         }
                                       },
-                                      "id": 6862,
+                                      "id": 6873,
                                       "isConstant": false,
                                       "isLValue": false,
                                       "isPure": false,
@@ -2945,37 +2945,37 @@
                                       "typeString": "uint256"
                                     }
                                   },
-                                  "id": 6864,
+                                  "id": 6875,
                                   "nodeType": "ExpressionStatement",
                                   "src": "15930:44:51"
                                 }
                               ]
                             }
                           },
-                          "id": 6935,
+                          "id": 6946,
                           "nodeType": "IfStatement",
                           "src": "14652:6166:51",
                           "trueBody": {
-                            "id": 6849,
+                            "id": 6860,
                             "nodeType": "Block",
                             "src": "14668:147:51",
                             "statements": [
                               {
                                 "expression": {
-                                  "id": 6841,
+                                  "id": 6852,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "leftHandSide": {
-                                    "id": 6837,
+                                    "id": 6848,
                                     "name": "iii6VRFbsc",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 6741,
+                                    "referencedDeclaration": 6752,
                                     "src": "14682:10:51",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_iii6VRFBsc_$9839",
+                                      "typeIdentifier": "t_contract$_iii6VRFBsc_$9850",
                                       "typeString": "contract iii6VRFBsc"
                                     }
                                   },
@@ -2985,7 +2985,7 @@
                                     "arguments": [
                                       {
                                         "hexValue": "307830303030303030303030303030303030303030303030303030303030303030303030303030303030",
-                                        "id": 6839,
+                                        "id": 6850,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": true,
@@ -3007,18 +3007,18 @@
                                           "typeString": "address"
                                         }
                                       ],
-                                      "id": 6838,
+                                      "id": 6849,
                                       "name": "iii6VRFBsc",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 9839,
+                                      "referencedDeclaration": 9850,
                                       "src": "14695:10:51",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_type$_t_contract$_iii6VRFBsc_$9839_$",
+                                        "typeIdentifier": "t_type$_t_contract$_iii6VRFBsc_$9850_$",
                                         "typeString": "type(contract iii6VRFBsc)"
                                       }
                                     },
-                                    "id": 6840,
+                                    "id": 6851,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": true,
@@ -3030,33 +3030,33 @@
                                     "src": "14695:54:51",
                                     "tryCall": false,
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_iii6VRFBsc_$9839",
+                                      "typeIdentifier": "t_contract$_iii6VRFBsc_$9850",
                                       "typeString": "contract iii6VRFBsc"
                                     }
                                   },
                                   "src": "14682:67:51",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_contract$_iii6VRFBsc_$9839",
+                                    "typeIdentifier": "t_contract$_iii6VRFBsc_$9850",
                                     "typeString": "contract iii6VRFBsc"
                                   }
                                 },
-                                "id": 6842,
+                                "id": 6853,
                                 "nodeType": "ExpressionStatement",
                                 "src": "14682:67:51"
                               },
                               {
                                 "expression": {
-                                  "id": 6847,
+                                  "id": 6858,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "leftHandSide": {
-                                    "id": 6843,
+                                    "id": 6854,
                                     "name": "vrfBase",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 6768,
+                                    "referencedDeclaration": 6779,
                                     "src": "14763:7:51",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_uint256",
@@ -3070,18 +3070,18 @@
                                     "expression": {
                                       "argumentTypes": [],
                                       "expression": {
-                                        "id": 6844,
+                                        "id": 6855,
                                         "name": "iii6VRFbsc",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 6741,
+                                        "referencedDeclaration": 6752,
                                         "src": "14773:10:51",
                                         "typeDescriptions": {
-                                          "typeIdentifier": "t_contract$_iii6VRFBsc_$9839",
+                                          "typeIdentifier": "t_contract$_iii6VRFBsc_$9850",
                                           "typeString": "contract iii6VRFBsc"
                                         }
                                       },
-                                      "id": 6845,
+                                      "id": 6856,
                                       "isConstant": false,
                                       "isLValue": false,
                                       "isPure": false,
@@ -3089,14 +3089,14 @@
                                       "memberLocation": "14784:18:51",
                                       "memberName": "requestRandomWords",
                                       "nodeType": "MemberAccess",
-                                      "referencedDeclaration": 9822,
+                                      "referencedDeclaration": 9833,
                                       "src": "14773:29:51",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_function_external_nonpayable$__$returns$_t_uint256_$",
                                         "typeString": "function () external returns (uint256)"
                                       }
                                     },
-                                    "id": 6846,
+                                    "id": 6857,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
@@ -3118,37 +3118,37 @@
                                     "typeString": "uint256"
                                   }
                                 },
-                                "id": 6848,
+                                "id": 6859,
                                 "nodeType": "ExpressionStatement",
                                 "src": "14763:41:51"
                               }
                             ]
                           }
                         },
-                        "id": 6936,
+                        "id": 6947,
                         "nodeType": "IfStatement",
                         "src": "13929:6889:51",
                         "trueBody": {
-                          "id": 6833,
+                          "id": 6844,
                           "nodeType": "Block",
                           "src": "13948:186:51",
                           "statements": [
                             {
                               "expression": {
-                                "id": 6825,
+                                "id": 6836,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "leftHandSide": {
-                                  "id": 6821,
+                                  "id": 6832,
                                   "name": "iii6VRFmumbai",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 6738,
+                                  "referencedDeclaration": 6749,
                                   "src": "13962:13:51",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_contract$_iii6VRFMumbai_$9113",
+                                    "typeIdentifier": "t_contract$_iii6VRFMumbai_$9124",
                                     "typeString": "contract iii6VRFMumbai"
                                   }
                                 },
@@ -3158,7 +3158,7 @@
                                   "arguments": [
                                     {
                                       "hexValue": "307831326339316239374243324136643962464363643761376634356438343137343134393041313030",
-                                      "id": 6823,
+                                      "id": 6834,
                                       "isConstant": false,
                                       "isLValue": false,
                                       "isPure": true,
@@ -3180,18 +3180,18 @@
                                         "typeString": "address"
                                       }
                                     ],
-                                    "id": 6822,
+                                    "id": 6833,
                                     "name": "iii6VRFMumbai",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 9113,
+                                    "referencedDeclaration": 9124,
                                     "src": "13978:13:51",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_type$_t_contract$_iii6VRFMumbai_$9113_$",
+                                      "typeIdentifier": "t_type$_t_contract$_iii6VRFMumbai_$9124_$",
                                       "typeString": "type(contract iii6VRFMumbai)"
                                     }
                                   },
-                                  "id": 6824,
+                                  "id": 6835,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": true,
@@ -3203,33 +3203,33 @@
                                   "src": "13978:87:51",
                                   "tryCall": false,
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_contract$_iii6VRFMumbai_$9113",
+                                    "typeIdentifier": "t_contract$_iii6VRFMumbai_$9124",
                                     "typeString": "contract iii6VRFMumbai"
                                   }
                                 },
                                 "src": "13962:103:51",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_iii6VRFMumbai_$9113",
+                                  "typeIdentifier": "t_contract$_iii6VRFMumbai_$9124",
                                   "typeString": "contract iii6VRFMumbai"
                                 }
                               },
-                              "id": 6826,
+                              "id": 6837,
                               "nodeType": "ExpressionStatement",
                               "src": "13962:103:51"
                             },
                             {
                               "expression": {
-                                "id": 6831,
+                                "id": 6842,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "leftHandSide": {
-                                  "id": 6827,
+                                  "id": 6838,
                                   "name": "vrfBase",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 6768,
+                                  "referencedDeclaration": 6779,
                                   "src": "14079:7:51",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
@@ -3243,18 +3243,18 @@
                                   "expression": {
                                     "argumentTypes": [],
                                     "expression": {
-                                      "id": 6828,
+                                      "id": 6839,
                                       "name": "iii6VRFmumbai",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 6738,
+                                      "referencedDeclaration": 6749,
                                       "src": "14089:13:51",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_contract$_iii6VRFMumbai_$9113",
+                                        "typeIdentifier": "t_contract$_iii6VRFMumbai_$9124",
                                         "typeString": "contract iii6VRFMumbai"
                                       }
                                     },
-                                    "id": 6829,
+                                    "id": 6840,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
@@ -3262,14 +3262,14 @@
                                     "memberLocation": "14103:18:51",
                                     "memberName": "requestRandomWords",
                                     "nodeType": "MemberAccess",
-                                    "referencedDeclaration": 9096,
+                                    "referencedDeclaration": 9107,
                                     "src": "14089:32:51",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_function_external_nonpayable$__$returns$_t_uint256_$",
                                       "typeString": "function () external returns (uint256)"
                                     }
                                   },
-                                  "id": 6830,
+                                  "id": 6841,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": false,
@@ -3291,37 +3291,37 @@
                                   "typeString": "uint256"
                                 }
                               },
-                              "id": 6832,
+                              "id": 6843,
                               "nodeType": "ExpressionStatement",
                               "src": "14079:44:51"
                             }
                           ]
                         }
                       },
-                      "id": 6937,
+                      "id": 6948,
                       "nodeType": "IfStatement",
                       "src": "12737:8081:51",
                       "trueBody": {
-                        "id": 6817,
+                        "id": 6828,
                         "nodeType": "Block",
                         "src": "12754:183:51",
                         "statements": [
                           {
                             "expression": {
-                              "id": 6809,
+                              "id": 6820,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
                               "lValueRequested": false,
                               "leftHandSide": {
-                                "id": 6805,
+                                "id": 6816,
                                 "name": "iii6VRFmatic",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 6735,
+                                "referencedDeclaration": 6746,
                                 "src": "12768:12:51",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_iii6VRFMatic_$9234",
+                                  "typeIdentifier": "t_contract$_iii6VRFMatic_$9245",
                                   "typeString": "contract iii6VRFMatic"
                                 }
                               },
@@ -3331,7 +3331,7 @@
                                 "arguments": [
                                   {
                                     "hexValue": "307838373139463945383561413036323761633963333439323644303643393262363737426434636139",
-                                    "id": 6807,
+                                    "id": 6818,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": true,
@@ -3353,18 +3353,18 @@
                                       "typeString": "address"
                                     }
                                   ],
-                                  "id": 6806,
+                                  "id": 6817,
                                   "name": "iii6VRFMatic",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 9234,
+                                  "referencedDeclaration": 9245,
                                   "src": "12783:12:51",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_type$_t_contract$_iii6VRFMatic_$9234_$",
+                                    "typeIdentifier": "t_type$_t_contract$_iii6VRFMatic_$9245_$",
                                     "typeString": "type(contract iii6VRFMatic)"
                                   }
                                 },
-                                "id": 6808,
+                                "id": 6819,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": true,
@@ -3376,33 +3376,33 @@
                                 "src": "12783:86:51",
                                 "tryCall": false,
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_iii6VRFMatic_$9234",
+                                  "typeIdentifier": "t_contract$_iii6VRFMatic_$9245",
                                   "typeString": "contract iii6VRFMatic"
                                 }
                               },
                               "src": "12768:101:51",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_iii6VRFMatic_$9234",
+                                "typeIdentifier": "t_contract$_iii6VRFMatic_$9245",
                                 "typeString": "contract iii6VRFMatic"
                               }
                             },
-                            "id": 6810,
+                            "id": 6821,
                             "nodeType": "ExpressionStatement",
                             "src": "12768:101:51"
                           },
                           {
                             "expression": {
-                              "id": 6815,
+                              "id": 6826,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
                               "lValueRequested": false,
                               "leftHandSide": {
-                                "id": 6811,
+                                "id": 6822,
                                 "name": "vrfBase",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 6768,
+                                "referencedDeclaration": 6779,
                                 "src": "12883:7:51",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -3416,18 +3416,18 @@
                                 "expression": {
                                   "argumentTypes": [],
                                   "expression": {
-                                    "id": 6812,
+                                    "id": 6823,
                                     "name": "iii6VRFmatic",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 6735,
+                                    "referencedDeclaration": 6746,
                                     "src": "12893:12:51",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_iii6VRFMatic_$9234",
+                                      "typeIdentifier": "t_contract$_iii6VRFMatic_$9245",
                                       "typeString": "contract iii6VRFMatic"
                                     }
                                   },
-                                  "id": 6813,
+                                  "id": 6824,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": false,
@@ -3435,14 +3435,14 @@
                                   "memberLocation": "12906:18:51",
                                   "memberName": "requestRandomWords",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 9217,
+                                  "referencedDeclaration": 9228,
                                   "src": "12893:31:51",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_nonpayable$__$returns$_t_uint256_$",
                                     "typeString": "function () external returns (uint256)"
                                   }
                                 },
-                                "id": 6814,
+                                "id": 6825,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -3464,37 +3464,37 @@
                                 "typeString": "uint256"
                               }
                             },
-                            "id": 6816,
+                            "id": 6827,
                             "nodeType": "ExpressionStatement",
                             "src": "12883:43:51"
                           }
                         ]
                       }
                     },
-                    "id": 6938,
+                    "id": 6949,
                     "nodeType": "IfStatement",
                     "src": "11388:9430:51",
                     "trueBody": {
-                      "id": 6801,
+                      "id": 6812,
                       "nodeType": "Block",
                       "src": "11403:186:51",
                       "statements": [
                         {
                           "expression": {
-                            "id": 6793,
+                            "id": 6804,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "leftHandSide": {
-                              "id": 6789,
+                              "id": 6800,
                               "name": "iii6VRFgoerli",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 6726,
+                              "referencedDeclaration": 6737,
                               "src": "11417:13:51",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_iii6VRFGoerli_$8992",
+                                "typeIdentifier": "t_contract$_iii6VRFGoerli_$9003",
                                 "typeString": "contract iii6VRFGoerli"
                               }
                             },
@@ -3504,7 +3504,7 @@
                               "arguments": [
                                 {
                                   "hexValue": "307864393834383932343034303937393742624133416439393730333735373165353535353566344530",
-                                  "id": 6791,
+                                  "id": 6802,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": true,
@@ -3526,18 +3526,18 @@
                                     "typeString": "address"
                                   }
                                 ],
-                                "id": 6790,
+                                "id": 6801,
                                 "name": "iii6VRFGoerli",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 8992,
+                                "referencedDeclaration": 9003,
                                 "src": "11433:13:51",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_type$_t_contract$_iii6VRFGoerli_$8992_$",
+                                  "typeIdentifier": "t_type$_t_contract$_iii6VRFGoerli_$9003_$",
                                   "typeString": "type(contract iii6VRFGoerli)"
                                 }
                               },
-                              "id": 6792,
+                              "id": 6803,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": true,
@@ -3549,33 +3549,33 @@
                               "src": "11433:87:51",
                               "tryCall": false,
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_iii6VRFGoerli_$8992",
+                                "typeIdentifier": "t_contract$_iii6VRFGoerli_$9003",
                                 "typeString": "contract iii6VRFGoerli"
                               }
                             },
                             "src": "11417:103:51",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_iii6VRFGoerli_$8992",
+                              "typeIdentifier": "t_contract$_iii6VRFGoerli_$9003",
                               "typeString": "contract iii6VRFGoerli"
                             }
                           },
-                          "id": 6794,
+                          "id": 6805,
                           "nodeType": "ExpressionStatement",
                           "src": "11417:103:51"
                         },
                         {
                           "expression": {
-                            "id": 6799,
+                            "id": 6810,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "leftHandSide": {
-                              "id": 6795,
+                              "id": 6806,
                               "name": "vrfBase",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 6768,
+                              "referencedDeclaration": 6779,
                               "src": "11534:7:51",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
@@ -3589,18 +3589,18 @@
                               "expression": {
                                 "argumentTypes": [],
                                 "expression": {
-                                  "id": 6796,
+                                  "id": 6807,
                                   "name": "iii6VRFgoerli",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 6726,
+                                  "referencedDeclaration": 6737,
                                   "src": "11544:13:51",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_contract$_iii6VRFGoerli_$8992",
+                                    "typeIdentifier": "t_contract$_iii6VRFGoerli_$9003",
                                     "typeString": "contract iii6VRFGoerli"
                                   }
                                 },
-                                "id": 6797,
+                                "id": 6808,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -3608,14 +3608,14 @@
                                 "memberLocation": "11558:18:51",
                                 "memberName": "requestRandomWords",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 8975,
+                                "referencedDeclaration": 8986,
                                 "src": "11544:32:51",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_external_nonpayable$__$returns$_t_uint256_$",
                                   "typeString": "function () external returns (uint256)"
                                 }
                               },
-                              "id": 6798,
+                              "id": 6809,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -3637,37 +3637,37 @@
                               "typeString": "uint256"
                             }
                           },
-                          "id": 6800,
+                          "id": 6811,
                           "nodeType": "ExpressionStatement",
                           "src": "11534:44:51"
                         }
                       ]
                     }
                   },
-                  "id": 6939,
+                  "id": 6950,
                   "nodeType": "IfStatement",
                   "src": "10348:10470:51",
                   "trueBody": {
-                    "id": 6785,
+                    "id": 6796,
                     "nodeType": "Block",
                     "src": "10363:147:51",
                     "statements": [
                       {
                         "expression": {
-                          "id": 6777,
+                          "id": 6788,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftHandSide": {
-                            "id": 6773,
+                            "id": 6784,
                             "name": "iii6VRFeth",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 6723,
+                            "referencedDeclaration": 6734,
                             "src": "10377:10:51",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_iii6VRFEth_$8871",
+                              "typeIdentifier": "t_contract$_iii6VRFEth_$8882",
                               "typeString": "contract iii6VRFEth"
                             }
                           },
@@ -3677,7 +3677,7 @@
                             "arguments": [
                               {
                                 "hexValue": "307830303030303030303030303030303030303030303030303030303030303030303030303030303030",
-                                "id": 6775,
+                                "id": 6786,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": true,
@@ -3699,18 +3699,18 @@
                                   "typeString": "address"
                                 }
                               ],
-                              "id": 6774,
+                              "id": 6785,
                               "name": "iii6VRFEth",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 8871,
+                              "referencedDeclaration": 8882,
                               "src": "10390:10:51",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_iii6VRFEth_$8871_$",
+                                "typeIdentifier": "t_type$_t_contract$_iii6VRFEth_$8882_$",
                                 "typeString": "type(contract iii6VRFEth)"
                               }
                             },
-                            "id": 6776,
+                            "id": 6787,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -3722,33 +3722,33 @@
                             "src": "10390:54:51",
                             "tryCall": false,
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_iii6VRFEth_$8871",
+                              "typeIdentifier": "t_contract$_iii6VRFEth_$8882",
                               "typeString": "contract iii6VRFEth"
                             }
                           },
                           "src": "10377:67:51",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_iii6VRFEth_$8871",
+                            "typeIdentifier": "t_contract$_iii6VRFEth_$8882",
                             "typeString": "contract iii6VRFEth"
                           }
                         },
-                        "id": 6778,
+                        "id": 6789,
                         "nodeType": "ExpressionStatement",
                         "src": "10377:67:51"
                       },
                       {
                         "expression": {
-                          "id": 6783,
+                          "id": 6794,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftHandSide": {
-                            "id": 6779,
+                            "id": 6790,
                             "name": "vrfBase",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 6768,
+                            "referencedDeclaration": 6779,
                             "src": "10458:7:51",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -3762,18 +3762,18 @@
                             "expression": {
                               "argumentTypes": [],
                               "expression": {
-                                "id": 6780,
+                                "id": 6791,
                                 "name": "iii6VRFeth",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 6723,
+                                "referencedDeclaration": 6734,
                                 "src": "10468:10:51",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_iii6VRFEth_$8871",
+                                  "typeIdentifier": "t_contract$_iii6VRFEth_$8882",
                                   "typeString": "contract iii6VRFEth"
                                 }
                               },
-                              "id": 6781,
+                              "id": 6792,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -3781,14 +3781,14 @@
                               "memberLocation": "10479:18:51",
                               "memberName": "requestRandomWords",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 8854,
+                              "referencedDeclaration": 8865,
                               "src": "10468:29:51",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_nonpayable$__$returns$_t_uint256_$",
                                 "typeString": "function () external returns (uint256)"
                               }
                             },
-                            "id": 6782,
+                            "id": 6793,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -3810,7 +3810,7 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 6784,
+                        "id": 6795,
                         "nodeType": "ExpressionStatement",
                         "src": "10458:41:51"
                       }
@@ -3819,7 +3819,7 @@
                 }
               ]
             },
-            "id": 6941,
+            "id": 6952,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -3827,23 +3827,23 @@
             "nameLocation": "9168:16:51",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 6766,
+              "id": 6777,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9184:2:51"
             },
             "returnParameters": {
-              "id": 6769,
+              "id": 6780,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 6768,
+                  "id": 6779,
                   "mutability": "mutable",
                   "name": "vrfBase",
                   "nameLocation": "9213:7:51",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6941,
+                  "scope": 6952,
                   "src": "9205:15:51",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3852,7 +3852,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 6767,
+                    "id": 6778,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "9205:7:51",
@@ -3866,7 +3866,7 @@
               ],
               "src": "9204:17:51"
             },
-            "scope": 6956,
+            "scope": 6967,
             "src": "9159:11665:51",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -3874,23 +3874,23 @@
           },
           {
             "body": {
-              "id": 6950,
+              "id": 6961,
               "nodeType": "Block",
               "src": "20890:29:51",
               "statements": [
                 {
                   "expression": {
-                    "id": 6948,
+                    "id": 6959,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 6946,
+                      "id": 6957,
                       "name": "vrf",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 6944,
+                      "referencedDeclaration": 6955,
                       "src": "20900:3:51",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -3900,11 +3900,11 @@
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 6947,
+                      "id": 6958,
                       "name": "vrf_id",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 6756,
+                      "referencedDeclaration": 6767,
                       "src": "20906:6:51",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -3917,14 +3917,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 6949,
+                  "id": 6960,
                   "nodeType": "ExpressionStatement",
                   "src": "20900:12:51"
                 }
               ]
             },
             "functionSelector": "1270e10c",
-            "id": 6951,
+            "id": 6962,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -3932,23 +3932,23 @@
             "nameLocation": "20839:12:51",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 6942,
+              "id": 6953,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "20851:2:51"
             },
             "returnParameters": {
-              "id": 6945,
+              "id": 6956,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 6944,
+                  "id": 6955,
                   "mutability": "mutable",
                   "name": "vrf",
                   "nameLocation": "20885:3:51",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6951,
+                  "scope": 6962,
                   "src": "20877:11:51",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3957,7 +3957,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 6943,
+                    "id": 6954,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "20877:7:51",
@@ -3971,7 +3971,7 @@
               ],
               "src": "20876:13:51"
             },
-            "scope": 6956,
+            "scope": 6967,
             "src": "20830:89:51",
             "stateMutability": "view",
             "virtual": false,
@@ -3979,13 +3979,13 @@
           },
           {
             "body": {
-              "id": 6954,
+              "id": 6965,
               "nodeType": "Block",
               "src": "20965:2:51",
               "statements": []
             },
             "functionSelector": "50ed6f0a",
-            "id": 6955,
+            "id": 6966,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -3993,25 +3993,25 @@
             "nameLocation": "20934:19:51",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 6952,
+              "id": 6963,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "20953:2:51"
             },
             "returnParameters": {
-              "id": 6953,
+              "id": 6964,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "20965:0:51"
             },
-            "scope": 6956,
+            "scope": 6967,
             "src": "20925:42:51",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 6957,
+        "scope": 6968,
         "src": "8597:12372:51",
         "usedErrors": [],
         "usedEvents": []
@@ -4025,7 +4025,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.16",
-  "updatedAt": "2023-12-05T23:55:20.123Z",
+  "updatedAt": "2023-12-11T02:05:21.461Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

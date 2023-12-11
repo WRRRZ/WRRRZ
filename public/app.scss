@@ -336,6 +336,10 @@ h1 {
 #sftbuild {
   grid-row: 7/10;
 }
+#merchy,
+#merchtxt {
+  grid-row: -1;
+}
 #amnt,
 #mint,
 #emaily,

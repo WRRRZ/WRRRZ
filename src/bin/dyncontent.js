@@ -63,4 +63,12 @@ and ~7% of the WRRRZ products generated profits.
   <source src="./images/clip2.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
+</div><div id='merchy' class="boxpost1">
+<video width="100%" autoplay loop >
+  <source src="./images/clip6.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+<div id='merchtxt' class="boxpost2">
+
 </div>`;

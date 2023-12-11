@@ -43,8 +43,7 @@
         }
       ],
       "stateMutability": "payable",
-      "type": "function",
-      "payable": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.23+commit.f704f362\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_name\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_sym\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"_max\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_g\",\"type\":\"uint256\"}],\"name\":\"buildERC721Token\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"buildERC721Token(string,string,uint256,uint256,uint256)\":{\"details\":\"function\",\"params\":{\"_g\":\"number of greenlist slots for Dia NFT project 0 = no greenlist\",\"_max\":\"amount of tokens 0 = infinte\",\"_name\":\"dia token name\",\"_price\":\"amount of gascoin for Dia token\"}},\"constructor\":{\"details\":\"this contract is a model contract to be deployed through the iii6AssetFactory\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/iii6utils/Assets/iii6AssetFactory.sol\":\"iii6AssetFactory\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol\":{\"keccak256\":\"0x3d709a5e0f1f9b8841172b10ba8af785dd51a13eda9fc395723a706e51329904\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://038eef992d813c20737fbe94e3a36e5d541d1aa736158dd2a43dd5b840b8c360\",\"dweb:/ipfs/QmZWJ25Yr1sUSAsfJRKvTMDmGkmy63hHhB495CUL1bpNz4\"]},\"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol\":{\"keccak256\":\"0x6e6e4b0835904509406b070ee173b5bc8f677c19421b76be38aea3b1b3d30846\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b3beaa37ee61e4ab615e250fbf01601ae481de843fd0ef55e6b44fd9d5fff8a7\",\"dweb:/ipfs/QmeZUVwd26LzK4Mfp8Zba5JbQNkZFfTzFu1A6FVMMZDg9c\"]},\"@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol\":{\"keccak256\":\"0xc7d7cd730d36825485ef4107d93c3ff18b9f3a5a00ea3d5988ba9a0bd70b10c5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8cb1064885ecbcd9c3adba779e190cb4a538e5d4d15aeccb67d3376bdffc94bd\",\"dweb:/ipfs/QmcQHK6ewve7tFi4XXK65JthQg4kQzApQikWcURJjGt4iQ\"]},\"@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol\":{\"keccak256\":\"0x54cdc97717cbae1a51a5500c8ee4875ebf056c95b54d2155a9544a79cb4f4494\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4bd670a55aacc0ab372835cd7e21b487f9fb69d8c6375234b68862a58f3b1153\",\"dweb:/ipfs/QmRMdB9TFLgG1LXg9VSTWbZZ1yf3uY1RY3pPkoMN23JfZk\"]},\"@openzeppelin/contracts/interfaces/draft-IERC6093.sol\":{\"keccak256\":\"0x60c65f701957fdd6faea1acb0bb45825791d473693ed9ecb34726fdfaa849dd7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ea290300e0efc4d901244949dc4d877fd46e6c5e43dc2b26620e8efab3ab803f\",\"dweb:/ipfs/QmcLLJppxKeJWqHxE2CUkcfhuRTgHSn8J4kijcLa5MYhSt\"]},\"@openzeppelin/contracts/token/ERC20/ERC20.sol\":{\"keccak256\":\"0xc3e1fa9d1987f8d349dfb4d6fe93bf2ca014b52ba335cfac30bfe71e357e6f80\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c5703ccdeb7b1d685e375ed719117e9edf2ab4bc544f24f23b0d50ec82257229\",\"dweb:/ipfs/QmTdwkbQq7owpCiyuzE7eh5LrD2ddrBCZ5WHVsWPi1RrTS\"]},\"@openzeppelin/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0xc6a8ff0ea489379b61faa647490411b80102578440ab9d84e9a957cc12164e70\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0ea104e577e63faea3b69c415637e99e755dcbf64c5833d7140c35a714d6d90c\",\"dweb:/ipfs/Qmau6x4Ns9XdyynRCNNp3RhLqijJjFm7z5fyZazfYFGYdq\"]},\"@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\":{\"keccak256\":\"0xaa761817f6cd7892fcf158b3c776b34551cde36f48ff9703d53898bc45a94ea2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0ad7c8d4d08938c8dfc43d75a148863fb324b80cf53e0a36f7e5a4ac29008850\",\"dweb:/ipfs/QmcrhfPgVNf5mkdhQvy1pMv51TFokD3Y4Wa5WZhFqVh8UV\"]},\"@openzeppelin/contracts/token/ERC721/ERC721.sol\":{\"keccak256\":\"0x13dd061770956c8489b80cfc89d9cdfc8ea2783d953691ea037a380731d52784\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ed37f0f86e7fe31659e48c3a2a5920a92dd7f13c85cf8991fb79fe5f01e08efd\",\"dweb:/ipfs/QmUtm9bQGvjr9hHGwkPWrbgFmVqzaJcxjkaYDex2oGsonS\"]},\"@openzeppelin/contracts/token/ERC721/IERC721.sol\":{\"keccak256\":\"0x5ef46daa3b58ef2702279d514780316efaa952915ee1aa3396f041ee2982b0b4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2f8f2a76e23b02fc69e8cd24c3cb47da6c7af3a2d6c3a382f8ac25c6e094ade7\",\"dweb:/ipfs/QmPV4ZS4tPVv4mTCf9ejyZ1ai57EEibDRj7mN2ARDCLV5n\"]},\"@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol\":{\"keccak256\":\"0x7f7a26306c79a65fb8b3b6c757cd74660c532cd8a02e165488e30027dd34ca49\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d01e0b2b837ee2f628545e54d8715b49c7ef2befd08356c2e7f6c50dde8a1c22\",\"dweb:/ipfs/QmWBAn6y2D1xgftci97Z3qR9tQnkvwQpYwFwkTvDMvqU4i\"]},\"@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol\":{\"keccak256\":\"0x37d1aaaa5a2908a09e9dcf56a26ddf762ecf295afb5964695937344fc6802ce1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ed0bfc1b92153c5000e50f4021367b931bbe96372ac6facec3c4961b72053d02\",\"dweb:/ipfs/Qmbwp8VDerjS5SV1quwHH1oMXxPQ93fzfLVqJ2RCqbowGE\"]},\"@openzeppelin/contracts/utils/Context.sol\":{\"keccak256\":\"0x75a4ee64c68dbd5f38bddd06e664a64c8271b4caa554fb6f0607dfd672bb4bf3\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0c4e6cb30d3601e2f7af5af09e265508147cb275a8dcd99d6f7363645cc56867\",\"dweb:/ipfs/QmNgFkoXNWoUbAyw71rr1sKQ95Rj2GfvYiWg79xEYDn2NY\"]},\"@openzeppelin/contracts/utils/Strings.sol\":{\"keccak256\":\"0x55f102ea785d8399c0e58d1108e2d289506dde18abc6db1b7f68c1f9f9bc5792\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6e52e0a7765c943ef14e5bcf11e46e6139fa044be564881378349236bf2e3453\",\"dweb:/ipfs/QmZEeeXoFPW47amyP35gfzomF9DixqqTEPwzBakv6cZw6i\"]},\"@openzeppelin/contracts/utils/introspection/ERC165.sol\":{\"keccak256\":\"0x9e8778b14317ba9e256c30a76fd6c32b960af621987f56069e1e819c77c6a133\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1777404f1dcd0fac188e55a288724ec3c67b45288e49cc64723e95e702b49ab8\",\"dweb:/ipfs/QmZFdC626GButBApwDUvvTnUzdinevC3B24d7yyh57XkiA\"]},\"@openzeppelin/contracts/utils/introspection/IERC165.sol\":{\"keccak256\":\"0x4296879f55019b23e135000eb36896057e7101fb7fb859c5ef690cf14643757b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://87b3541437c8c443ccd36795e56a338ed12855eec17f8da624511b8d1a7e14df\",\"dweb:/ipfs/QmeJQCtZrQjtJLr6u7ZHWeH3pBnjtLWzvRrKViAi7UZqxL\"]},\"@openzeppelin/contracts/utils/math/Math.sol\":{\"keccak256\":\"0x005ec64c6313f0555d59e278f9a7a5ab2db5bdc72a027f255a37c327af1ec02d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4ece9f0b9c8daca08c76b6b5405a6446b6f73b3a15fab7ff56e296cbd4a2c875\",\"dweb:/ipfs/QmQyRpyPRL5SQuAgj6SHmbir3foX65FJjbVTTQrA2EFg6L\"]},\"@openzeppelin/contracts/utils/math/SignedMath.sol\":{\"keccak256\":\"0x5f7e4076e175393767754387c962926577f1660dd9b810187b9002407656be72\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7d533a1c97cd43a57cd9c465f7ee8dd0e39ae93a8fb8ff8e5303a356b081cdcc\",\"dweb:/ipfs/QmVBEei6aTnvYNZp2CHYVNKyZS4q1KkjANfY39WVXZXVoT\"]},\"project:/contracts/iii6utils/Assets/iii6AssetFactory.sol\":{\"keccak256\":\"0xe6033977d6da28c73adb630b1d0feac8244711a396ca3330e8ccd534ff55f3e0\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://a4e3e2b343042100e7c818841d5b3031954a8ccbb68e0af1bf2c64530fd59a33\",\"dweb:/ipfs/QmYSpy1wuTYUDWw1Sk4naaJ4LgssavBHZGEGHEkQXgQxLd\"]},\"project:/contracts/iii6utils/Assets/iii6DiaGreenListModel.sol\":{\"keccak256\":\"0x0685d9a25c64dfa0f0ed35fa8393d33777da0e16c060b2a8582c83076c21c196\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://40a6bb45df43d9c728970790d343e83450eac1c8d15630d0a633af5ed28e5008\",\"dweb:/ipfs/QmaKLGDp3HkvpzMzv9ynV79DUnPhLxiZMYcPCsE4G3Fa5k\"]},\"project:/contracts/iii6utils/Assets/iii6DiaModel.sol\":{\"keccak256\":\"0x2158a36875a51622646f7f592c53e253a3c87720975cad535990e6eb66af6b4a\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://aec0af68b49322559385ce78ad86dcf5444498c9a6fccc3372c6f9aea6bbd95e\",\"dweb:/ipfs/QmPtBsKS2gcA8keh2Y87vFuvUCdAvD9NwcyGnY9mbZLCwu\"]},\"project:/contracts/iii6utils/Math/iii6DiaIdGen.sol\":{\"keccak256\":\"0x83cf97a736eaa1294e01d54c11282b9e5a3746d20c77223604599d8cd5bf6e18\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://c7432d675c0c1913e9fd1bf7abc95e7665713da107ff142a61d5933f2ee036fe\",\"dweb:/ipfs/QmfW5qexZ6Tiop8pUh7yEz4ycRPQoXeNS8vf23t95nSY3B\"]},\"project:/contracts/iii6utils/Math/iii6Math.sol\":{\"keccak256\":\"0x62d51cf950322b2723fdffbe4951a50e802e52231f341c08d4a6c600a4101bb4\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://85469d20f0d232d967f86b687da1ae565c75a8a79b0d07b89ac3948035244507\",\"dweb:/ipfs/Qmd1Bh8ZpuFTF8QVP6WGrip64PWcfdpuRUGpcUWTRr6oXk\"]},\"project:/contracts/iii6utils/Math/iii6PriceMath.sol\":{\"keccak256\":\"0x6ee0e5f81ab0f4c9103f1b39589952f6b217e99dd11a68e653ab58ce39f230d5\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://862b8826e2c8966943e4b24cb37f29a35f74d24cd92f73581d9980ba77c978de\",\"dweb:/ipfs/QmR1Eh9Xz2ifrsDQtJePoQVo7wecrwpxSyRtbuei4WBpj9\"]},\"project:/contracts/iii6utils/Misc/Errors/iii6Errors.sol\":{\"keccak256\":\"0x0fa08b9d5f1d9bb38d328004067f1d68d2caad65fec8c90e5d14d8092ab19e91\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://dbb894b6899c0f54b5cf4649063cf4e0c139d7ee60b9860c95657021545db8bd\",\"dweb:/ipfs/QmQeC3k1TeeDELme3t8J2RDmXnm4mPCtuz29BY5JqfBgBQ\"]},\"project:/contracts/iii6utils/Misc/iii6Logs.sol\":{\"keccak256\":\"0xabbc8d6442746a07a54d58285b637ab50b9307cc8d0cf5145422bfce908cb4d0\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://2f3fda50a6d1d5baae119e2abd2e7f563aedc38e92b4dc02f6900c673d7afc54\",\"dweb:/ipfs/QmWJd5fxwr4JBDKLHZiEVMA9AGYgAQQQR3NFRmaZjMM28R\"]},\"project:/contracts/iii6utils/Oracles/iii6PriceConsumer.sol\":{\"keccak256\":\"0x8f13a07554d75ead83b94eb5fca8dab244d701d530b31e39a47fd0f7e1ecca89\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://450b607becc252584949b5058d66c7677a5129ae05e6558063e4ac393d18e25b\",\"dweb:/ipfs/QmRpqWJYyRWH83UTq4JyPhBfoZ1MtfMkXNfvJe1PG9wrxR\"]},\"project:/contracts/iii6utils/Oracles/iii6VRFConsumer.sol\":{\"keccak256\":\"0x92f4a07e24477c15376661b15f02cc16167a7647cdc853afba7f58caf5d04611\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://14626e9858331094c582f5138f2b24056032faf79efce377c71aff91414a1166\",\"dweb:/ipfs/QmWZmnwrS3k6mr1PH3zZiSwfUTA12omHSZKjVzdQY2wjqh\"]}},\"version\":1}",
@@ -3465,7 +3464,7 @@
   "sourceMap": "8735:3778:39:-:0;;;11154:16;;;;;;;;;;8735:3778;;;;;;",
   "deployedSourceMap": "8735:3778:39:-:0;;;;;;;;;;;;;;;;;;;;;12246:265;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;12431:7;12457:47;12474:5;;12457:47;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;12481:4;;12457:47;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;12487:4;12493:6;12501:2;12457:16;:47::i;:::-;12450:54;;12246:265;;;;;;;;;:::o;11224:763::-;11397:7;11445:21;11904:10;11916:5;11923:4;11929;11935:6;11943:2;11887:59;;;;;:::i;:::-;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;11876:70;;11971:8;11956:24;;;11224:763;;;;;;;:::o;-1:-1:-1:-;;;;;;;;:::o;88:117:69:-;197:1;194;187:12;211:117;320:1;317;310:12;334:117;443:1;440;433:12;457:117;566:1;563;556:12;580:117;689:1;686;679:12;717:553;775:8;785:6;835:3;828:4;820:6;816:17;812:27;802:122;;843:79;;:::i;:::-;802:122;956:6;943:20;933:30;;986:18;978:6;975:30;972:117;;;1008:79;;:::i;:::-;972:117;1122:4;1114:6;1110:17;1098:29;;1176:3;1168:4;1160:6;1156:17;1146:8;1142:32;1139:41;1136:128;;;1183:79;;:::i;:::-;1136:128;717:553;;;;;:::o;1276:77::-;1313:7;1342:5;1331:16;;1276:77;;;:::o;1359:122::-;1432:24;1450:5;1432:24;:::i;:::-;1425:5;1422:35;1412:63;;1471:1;1468;1461:12;1412:63;1359:122;:::o;1487:139::-;1533:5;1571:6;1558:20;1549:29;;1587:33;1614:5;1587:33;:::i;:::-;1487:139;;;;:::o;1632:1311::-;1751:6;1759;1767;1775;1783;1791;1799;1848:3;1836:9;1827:7;1823:23;1819:33;1816:120;;;1855:79;;:::i;:::-;1816:120;2003:1;1992:9;1988:17;1975:31;2033:18;2025:6;2022:30;2019:117;;;2055:79;;:::i;:::-;2019:117;2168:65;2225:7;2216:6;2205:9;2201:22;2168:65;:::i;:::-;2150:83;;;;1946:297;2310:2;2299:9;2295:18;2282:32;2341:18;2333:6;2330:30;2327:117;;;2363:79;;:::i;:::-;2327:117;2476:65;2533:7;2524:6;2513:9;2509:22;2476:65;:::i;:::-;2458:83;;;;2253:298;2590:2;2616:53;2661:7;2652:6;2641:9;2637:22;2616:53;:::i;:::-;2606:63;;2561:118;2718:2;2744:53;2789:7;2780:6;2769:9;2765:22;2744:53;:::i;:::-;2734:63;;2689:118;2846:3;2873:53;2918:7;2909:6;2898:9;2894:22;2873:53;:::i;:::-;2863:63;;2817:119;1632:1311;;;;;;;;;;:::o;2949:126::-;2986:7;3026:42;3019:5;3015:54;3004:65;;2949:126;;;:::o;3081:96::-;3118:7;3147:24;3165:5;3147:24;:::i;:::-;3136:35;;3081:96;;;:::o;3183:118::-;3270:24;3288:5;3270:24;:::i;:::-;3265:3;3258:37;3183:118;;:::o;3307:222::-;3400:4;3438:2;3427:9;3423:18;3415:26;;3451:71;3519:1;3508:9;3504:17;3495:6;3451:71;:::i;:::-;3307:222;;;;:::o;3535:99::-;3587:6;3621:5;3615:12;3605:22;;3535:99;;;:::o;3640:169::-;3724:11;3758:6;3753:3;3746:19;3798:4;3793:3;3789:14;3774:29;;3640:169;;;;:::o;3815:246::-;3896:1;3906:113;3920:6;3917:1;3914:13;3906:113;;;4005:1;4000:3;3996:11;3990:18;3986:1;3981:3;3977:11;3970:39;3942:2;3939:1;3935:10;3930:15;;3906:113;;;4053:1;4044:6;4039:3;4035:16;4028:27;3877:184;3815:246;;;:::o;4067:102::-;4108:6;4159:2;4155:7;4150:2;4143:5;4139:14;4135:28;4125:38;;4067:102;;;:::o;4175:377::-;4263:3;4291:39;4324:5;4291:39;:::i;:::-;4346:71;4410:6;4405:3;4346:71;:::i;:::-;4339:78;;4426:65;4484:6;4479:3;4472:4;4465:5;4461:16;4426:65;:::i;:::-;4516:29;4538:6;4516:29;:::i;:::-;4511:3;4507:39;4500:46;;4267:285;4175:377;;;;:::o;4558:118::-;4645:24;4663:5;4645:24;:::i;:::-;4640:3;4633:37;4558:118;;:::o;4682:957::-;4955:4;4993:3;4982:9;4978:19;4970:27;;5007:71;5075:1;5064:9;5060:17;5051:6;5007:71;:::i;:::-;5125:9;5119:4;5115:20;5110:2;5099:9;5095:18;5088:48;5153:78;5226:4;5217:6;5153:78;:::i;:::-;5145:86;;5278:9;5272:4;5268:20;5263:2;5252:9;5248:18;5241:48;5306:78;5379:4;5370:6;5306:78;:::i;:::-;5298:86;;5394:72;5462:2;5451:9;5447:18;5438:6;5394:72;:::i;:::-;5476:73;5544:3;5533:9;5529:19;5520:6;5476:73;:::i;:::-;5559;5627:3;5616:9;5612:19;5603:6;5559:73;:::i;:::-;4682:957;;;;;;;;;:::o",
   "source": "// SPDX-License-Identifier: GPL-3.0\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//\n//      MMWKd:..                                                                                    ..:dKWMM\n//      MKl.                                                                                            .lKW\n//      O'       ..''''''''''''.     .''''''.     .'''''.      .''''''''''''''.     .''''''''''''..       'O\n//      '     .ckKNNWNWWWWWWWWWk.   .xNWWNWNl    ,0WWWWW0,     lNWWWWWWWWWNWNk'    ;0NNNWWWWWWWWNNKkc.     '\n//           ,OWMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMMMM0,    ;KMMMMMMMMMMMMMMMMWO,\n//          .kMMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMMM0,    ;KMMMMMMMMMMMMMMMMMMMk.\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMM0,    :KMMMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMM0,    :KMMMMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMM0,    ;0NNWWMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMM0,     .'.',;lkNMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMK;              ,kWMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMX:    .:oxxdc'    .dWMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMWd.   ,OWMMMMMXl.   '0MMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMX;   .kMMMMMMMMK,   .xMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMM0'   .OMMMMMMMMX;   .xMMMMMMMMMMMM0'\n//          .OMMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMK,    lNMMMMMMWx.   '0MMMMMMMMMMMMO.\n//           lNMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMWd.   .:x0KKKkc.   .dWMMMMMMMMMMMNl\n//      .    .c0WMMMMMMMMMMMMMMO.   .kMMMMMWo    ,KMMMMMK,     lWMMMMNd.     ....     .xNMMMMMMMMMMW0c.    .\n//      l      .,lddxxxxxxxxxxxc.    :xxxxxd,    .lxxxxxl.     ,dxxxxxd:.            .cdxxxxxxxxddl,.      l\n//      No.                                                                                              .oN\n//      MW0l'                                                                                          'l0WM\n//      MMMWKd;.                                                                                    .;dKWMMM\n//\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//                                                                                                                                                                                  //\n//      @dev            ::              Aron Mauritala Ayuk                                                                                                                                          //\n//      @msg            ::              stereo@iii6.xyz                                                                                                                                   //\n//      @github         ::              @stereoIII6\n//      @twitter        ::              @stereoIII6                                                                                                                                              //\n//                                                                                                                                                                                  //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//                                                                                                                                                                                  //\n//      @dev            ::              Juan Xavier Valverde                                                                                                                                    //\n//      @msg            ::              juanxavier@iii6.xyz                                                                                                                               //\n//      @twitter        ::              @JuanXavier                                                                                                                                             //\n//      @github         ::              @JuanXavier                                                                                                                                             //\n//                                                                                                                                                                                  //                                                                                                                                                                                 //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//                                                                                                                                                                                  //\n//      @company        ::              Fractio Holding                                                                                                                                                                       //\n//      @title          ::              iii6 Coin Factory                                                                                                                            //\n//      @description    ::              ERC721 DIA Factory Contract                                                                                                                           //\n//      @version        ::              0.0.1                                                                                                                                       //\n//      @purpose        ::              ERC721 DIA Factory                                                                                                          //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n\n/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n\n/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n\npragma solidity ^0.8.7;\n\nimport \"./iii6DiaModel.sol\";\nimport \"../Math/iii6PriceMath.sol\";\n\ncontract iii6AssetFactory {\n    /**\n     * @dev this contract is a model contract to be deployed through the iii6AssetFactory\n     */\n    // ██╗███╗░░██╗██╗████████╗██╗░█████╗░██╗░░░░░██╗░██████╗░█████╗░████████╗██╗░█████╗░███╗░░██╗\n    // ██║████╗░██║██║╚══██╔══╝██║██╔══██╗██║░░░░░██║██╔════╝██╔══██╗╚══██╔══╝██║██╔══██╗████╗░██║\n    // ██║██╔██╗██║██║░░░██║░░░██║███████║██║░░░░░██║╚█████╗░███████║░░░██║░░░██║██║░░██║██╔██╗██║\n    // ██║██║╚████║██║░░░██║░░░██║██╔══██║██║░░░░░██║░╚═══██╗██╔══██║░░░██║░░░██║██║░░██║██║╚████║\n    // ██║██║░╚███║██║░░░██║░░░██║██║░░██║███████╗██║██████╔╝██║░░██║░░░██║░░░██║╚█████╔╝██║░╚███║\n    // ╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝\n\n    /*\n     * @dev this constructor creates a Dia NFT Token Contract\n     * @param _owner contract admin\n     * @param _name dia token name\n     * @param _max amount of tokens 0 = infinte\n     * @param _price amount of gascoin for token\n     * @param _cName name of related ERC20 token\n     * @param _cSym symbol of related ERC20 token\n     * @param _c bool if related coin exists\n     * @param _cs max supply of related ERC20 token 0 = infinite\n     * @param _rate price of related ERC20 token in gascoin\n     * @param _g number of greenlist slots for Dia NFT project 0 = no greenlist\n     */\n    constructor() {}\n\n    // function creates a ERC721 Token Contract\n    function _makeERC721Asset(\n        string memory _name,\n        string memory _sym,\n        uint256 _max,\n        uint256 _price,\n        uint256 _g\n    ) internal returns (address) {\n        // chose token model\n        iii6DiaModel diaToken;\n        /**\n         * @dev this constructor creates a Dia NFT Token Contract\n         * @param _owner contract admin\n         * @param _name dia token name\n         * @param _sym dia token name\n         * @param _max amount of tokens 0 = infinte\n         * @param _price amount of gascoin for Dia token\n         * @param _g number of greenlist slots for Dia NFT project 0 = no greenlist\n         */\n        diaToken = new iii6DiaModel(msg.sender, _name, _sym, _max, _price, _g);\n        return address(diaToken);\n    }\n\n    /**\n     * @dev function\n     * @param _name dia token name\n     * @param _max amount of tokens 0 = infinte\n     * @param _price amount of gascoin for Dia token\n     * @param _g number of greenlist slots for Dia NFT project 0 = no greenlist\n     */\n    function buildERC721Token(\n        string calldata _name,\n        string calldata _sym,\n        uint256 _max,\n        uint256 _price,\n        uint256 _g\n    ) external payable returns (address) {\n        return _makeERC721Asset(_name, _sym, _max, _price, _g);\n    }\n}\n",
-  "sourcePath": "/Users/iii6/Documents/GitHub/iii6v2/iii6v2/contracts/iii6utils/Assets/iii6AssetFactory.sol",
+  "sourcePath": "/Users/iii6/Documents/GitHub/iii6v2/WRRRZ/contracts/iii6utils/Assets/iii6AssetFactory.sol",
   "ast": {
     "absolutePath": "project:/contracts/iii6utils/Assets/iii6AssetFactory.sol",
     "exportedSymbols": {
@@ -3521,69 +3520,69 @@
         840
       ],
       "iii6AssetFactory": [
-        5627
+        5638
       ],
       "iii6DiaGreenListModel": [
-        6443
+        6454
       ],
       "iii6DiaModel": [
-        6706
+        6717
       ],
       "iii6Errors": [
-        8004
+        8015
       ],
       "iii6Logs": [
-        8071
+        8082
       ],
       "iii6Math": [
-        7145
+        7156
       ],
       "iii6PriceConsumer": [
-        8743
+        8754
       ],
       "iii6PriceMath": [
-        7951
+        7962
       ],
       "iii6VRFAvax": [
-        9597
+        9608
       ],
       "iii6VRFBsc": [
-        9839
+        9850
       ],
       "iii6VRFChalen": [
-        9960
+        9971
       ],
       "iii6VRFEth": [
-        8871
+        8882
       ],
       "iii6VRFFantom": [
-        9355
+        9366
       ],
       "iii6VRFFantomTest": [
-        9476
+        9487
       ],
       "iii6VRFFuji": [
-        9718
+        9729
       ],
       "iii6VRFGoerli": [
-        8992
+        9003
       ],
       "iii6VRFMatic": [
-        9234
+        9245
       ],
       "iii6VRFMumbai": [
-        9113
+        9124
       ],
       "iiiDiaIdGen": [
-        6956
+        6967
       ]
     },
-    "id": 5628,
+    "id": 5639,
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 5555,
+        "id": 5566,
         "literals": [
           "solidity",
           "^",
@@ -3596,11 +3595,11 @@
       {
         "absolutePath": "project:/contracts/iii6utils/Assets/iii6DiaModel.sol",
         "file": "./iii6DiaModel.sol",
-        "id": 5556,
+        "id": 5567,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 5628,
-        "sourceUnit": 6707,
+        "scope": 5639,
+        "sourceUnit": 6718,
         "src": "8669:28:39",
         "symbolAliases": [],
         "unitAlias": ""
@@ -3608,11 +3607,11 @@
       {
         "absolutePath": "project:/contracts/iii6utils/Math/iii6PriceMath.sol",
         "file": "../Math/iii6PriceMath.sol",
-        "id": 5557,
+        "id": 5568,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 5628,
-        "sourceUnit": 7952,
+        "scope": 5639,
+        "sourceUnit": 7963,
         "src": "8698:35:39",
         "symbolAliases": [],
         "unitAlias": ""
@@ -3622,13 +3621,13 @@
         "baseContracts": [],
         "canonicalName": "iii6AssetFactory",
         "contractDependencies": [
-          6706
+          6717
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 5627,
+        "id": 5638,
         "linearizedBaseContracts": [
-          5627
+          5638
         ],
         "name": "iii6AssetFactory",
         "nameLocation": "8744:16:39",
@@ -3636,18 +3635,18 @@
         "nodes": [
           {
             "body": {
-              "id": 5561,
+              "id": 5572,
               "nodeType": "Block",
               "src": "11168:2:39",
               "statements": []
             },
             "documentation": {
-              "id": 5558,
+              "id": 5569,
               "nodeType": "StructuredDocumentation",
               "src": "8767:101:39",
               "text": " @dev this contract is a model contract to be deployed through the iii6AssetFactory"
             },
-            "id": 5562,
+            "id": 5573,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -3655,18 +3654,18 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5559,
+              "id": 5570,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "11165:2:39"
             },
             "returnParameters": {
-              "id": 5560,
+              "id": 5571,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "11168:0:39"
             },
-            "scope": 5627,
+            "scope": 5638,
             "src": "11154:16:39",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -3674,74 +3673,74 @@
           },
           {
             "body": {
-              "id": 5600,
+              "id": 5611,
               "nodeType": "Block",
               "src": "11406:581:39",
               "statements": [
                 {
                   "assignments": [
-                    5579
+                    5590
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 5579,
+                      "id": 5590,
                       "mutability": "mutable",
                       "name": "diaToken",
                       "nameLocation": "11458:8:39",
                       "nodeType": "VariableDeclaration",
-                      "scope": 5600,
+                      "scope": 5611,
                       "src": "11445:21:39",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_iii6DiaModel_$6706",
+                        "typeIdentifier": "t_contract$_iii6DiaModel_$6717",
                         "typeString": "contract iii6DiaModel"
                       },
                       "typeName": {
-                        "id": 5578,
+                        "id": 5589,
                         "nodeType": "UserDefinedTypeName",
                         "pathNode": {
-                          "id": 5577,
+                          "id": 5588,
                           "name": "iii6DiaModel",
                           "nameLocations": [
                             "11445:12:39"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 6706,
+                          "referencedDeclaration": 6717,
                           "src": "11445:12:39"
                         },
-                        "referencedDeclaration": 6706,
+                        "referencedDeclaration": 6717,
                         "src": "11445:12:39",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_iii6DiaModel_$6706",
+                          "typeIdentifier": "t_contract$_iii6DiaModel_$6717",
                           "typeString": "contract iii6DiaModel"
                         }
                       },
                       "visibility": "internal"
                     }
                   ],
-                  "id": 5580,
+                  "id": 5591,
                   "nodeType": "VariableDeclarationStatement",
                   "src": "11445:21:39"
                 },
                 {
                   "documentation": " @dev this constructor creates a Dia NFT Token Contract\n @param _owner contract admin\n @param _name dia token name\n @param _sym dia token name\n @param _max amount of tokens 0 = infinte\n @param _price amount of gascoin for Dia token\n @param _g number of greenlist slots for Dia NFT project 0 = no greenlist",
                   "expression": {
-                    "id": 5593,
+                    "id": 5604,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 5581,
+                      "id": 5592,
                       "name": "diaToken",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5579,
+                      "referencedDeclaration": 5590,
                       "src": "11876:8:39",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_iii6DiaModel_$6706",
+                        "typeIdentifier": "t_contract$_iii6DiaModel_$6717",
                         "typeString": "contract iii6DiaModel"
                       }
                     },
@@ -3751,7 +3750,7 @@
                       "arguments": [
                         {
                           "expression": {
-                            "id": 5585,
+                            "id": 5596,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -3762,7 +3761,7 @@
                               "typeString": "msg"
                             }
                           },
-                          "id": 5586,
+                          "id": 5597,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -3777,11 +3776,11 @@
                           }
                         },
                         {
-                          "id": 5587,
+                          "id": 5598,
                           "name": "_name",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 5564,
+                          "referencedDeclaration": 5575,
                           "src": "11916:5:39",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -3789,11 +3788,11 @@
                           }
                         },
                         {
-                          "id": 5588,
+                          "id": 5599,
                           "name": "_sym",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 5566,
+                          "referencedDeclaration": 5577,
                           "src": "11923:4:39",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -3801,11 +3800,11 @@
                           }
                         },
                         {
-                          "id": 5589,
+                          "id": 5600,
                           "name": "_max",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 5568,
+                          "referencedDeclaration": 5579,
                           "src": "11929:4:39",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -3813,11 +3812,11 @@
                           }
                         },
                         {
-                          "id": 5590,
+                          "id": 5601,
                           "name": "_price",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 5570,
+                          "referencedDeclaration": 5581,
                           "src": "11935:6:39",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -3825,11 +3824,11 @@
                           }
                         },
                         {
-                          "id": 5591,
+                          "id": 5602,
                           "name": "_g",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 5572,
+                          "referencedDeclaration": 5583,
                           "src": "11943:2:39",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -3864,7 +3863,7 @@
                             "typeString": "uint256"
                           }
                         ],
-                        "id": 5584,
+                        "id": 5595,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3872,31 +3871,31 @@
                         "nodeType": "NewExpression",
                         "src": "11887:16:39",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_function_creation_nonpayable$_t_address_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_uint256_$_t_uint256_$_t_uint256_$returns$_t_contract$_iii6DiaModel_$6706_$",
+                          "typeIdentifier": "t_function_creation_nonpayable$_t_address_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_uint256_$_t_uint256_$_t_uint256_$returns$_t_contract$_iii6DiaModel_$6717_$",
                           "typeString": "function (address,string memory,string memory,uint256,uint256,uint256) returns (contract iii6DiaModel)"
                         },
                         "typeName": {
-                          "id": 5583,
+                          "id": 5594,
                           "nodeType": "UserDefinedTypeName",
                           "pathNode": {
-                            "id": 5582,
+                            "id": 5593,
                             "name": "iii6DiaModel",
                             "nameLocations": [
                               "11891:12:39"
                             ],
                             "nodeType": "IdentifierPath",
-                            "referencedDeclaration": 6706,
+                            "referencedDeclaration": 6717,
                             "src": "11891:12:39"
                           },
-                          "referencedDeclaration": 6706,
+                          "referencedDeclaration": 6717,
                           "src": "11891:12:39",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_iii6DiaModel_$6706",
+                            "typeIdentifier": "t_contract$_iii6DiaModel_$6717",
                             "typeString": "contract iii6DiaModel"
                           }
                         }
                       },
-                      "id": 5592,
+                      "id": 5603,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3908,17 +3907,17 @@
                       "src": "11887:59:39",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_iii6DiaModel_$6706",
+                        "typeIdentifier": "t_contract$_iii6DiaModel_$6717",
                         "typeString": "contract iii6DiaModel"
                       }
                     },
                     "src": "11876:70:39",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_iii6DiaModel_$6706",
+                      "typeIdentifier": "t_contract$_iii6DiaModel_$6717",
                       "typeString": "contract iii6DiaModel"
                     }
                   },
-                  "id": 5594,
+                  "id": 5605,
                   "nodeType": "ExpressionStatement",
                   "src": "11876:70:39"
                 },
@@ -3926,14 +3925,14 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 5597,
+                        "id": 5608,
                         "name": "diaToken",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 5579,
+                        "referencedDeclaration": 5590,
                         "src": "11971:8:39",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_iii6DiaModel_$6706",
+                          "typeIdentifier": "t_contract$_iii6DiaModel_$6717",
                           "typeString": "contract iii6DiaModel"
                         }
                       }
@@ -3941,11 +3940,11 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_iii6DiaModel_$6706",
+                          "typeIdentifier": "t_contract$_iii6DiaModel_$6717",
                           "typeString": "contract iii6DiaModel"
                         }
                       ],
-                      "id": 5596,
+                      "id": 5607,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -3957,14 +3956,14 @@
                         "typeString": "type(address)"
                       },
                       "typeName": {
-                        "id": 5595,
+                        "id": 5606,
                         "name": "address",
                         "nodeType": "ElementaryTypeName",
                         "src": "11963:7:39",
                         "typeDescriptions": {}
                       }
                     },
-                    "id": 5598,
+                    "id": 5609,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3980,14 +3979,14 @@
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 5576,
-                  "id": 5599,
+                  "functionReturnParameters": 5587,
+                  "id": 5610,
                   "nodeType": "Return",
                   "src": "11956:24:39"
                 }
               ]
             },
-            "id": 5601,
+            "id": 5612,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -3995,17 +3994,17 @@
             "nameLocation": "11233:16:39",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5573,
+              "id": 5584,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5564,
+                  "id": 5575,
                   "mutability": "mutable",
                   "name": "_name",
                   "nameLocation": "11273:5:39",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5601,
+                  "scope": 5612,
                   "src": "11259:19:39",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -4014,7 +4013,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 5563,
+                    "id": 5574,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "11259:6:39",
@@ -4027,12 +4026,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5566,
+                  "id": 5577,
                   "mutability": "mutable",
                   "name": "_sym",
                   "nameLocation": "11302:4:39",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5601,
+                  "scope": 5612,
                   "src": "11288:18:39",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -4041,7 +4040,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 5565,
+                    "id": 5576,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "11288:6:39",
@@ -4054,12 +4053,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5568,
+                  "id": 5579,
                   "mutability": "mutable",
                   "name": "_max",
                   "nameLocation": "11324:4:39",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5601,
+                  "scope": 5612,
                   "src": "11316:12:39",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4068,7 +4067,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5567,
+                    "id": 5578,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "11316:7:39",
@@ -4081,12 +4080,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5570,
+                  "id": 5581,
                   "mutability": "mutable",
                   "name": "_price",
                   "nameLocation": "11346:6:39",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5601,
+                  "scope": 5612,
                   "src": "11338:14:39",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4095,7 +4094,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5569,
+                    "id": 5580,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "11338:7:39",
@@ -4108,12 +4107,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5572,
+                  "id": 5583,
                   "mutability": "mutable",
                   "name": "_g",
                   "nameLocation": "11370:2:39",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5601,
+                  "scope": 5612,
                   "src": "11362:10:39",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4122,7 +4121,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5571,
+                    "id": 5582,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "11362:7:39",
@@ -4137,17 +4136,17 @@
               "src": "11249:129:39"
             },
             "returnParameters": {
-              "id": 5576,
+              "id": 5587,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5575,
+                  "id": 5586,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5601,
+                  "scope": 5612,
                   "src": "11397:7:39",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4156,7 +4155,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5574,
+                    "id": 5585,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "11397:7:39",
@@ -4171,7 +4170,7 @@
               ],
               "src": "11396:9:39"
             },
-            "scope": 5627,
+            "scope": 5638,
             "src": "11224:763:39",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -4179,7 +4178,7 @@
           },
           {
             "body": {
-              "id": 5625,
+              "id": 5636,
               "nodeType": "Block",
               "src": "12440:71:39",
               "statements": [
@@ -4187,11 +4186,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 5618,
+                        "id": 5629,
                         "name": "_name",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 5604,
+                        "referencedDeclaration": 5615,
                         "src": "12474:5:39",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_calldata_ptr",
@@ -4199,11 +4198,11 @@
                         }
                       },
                       {
-                        "id": 5619,
+                        "id": 5630,
                         "name": "_sym",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 5606,
+                        "referencedDeclaration": 5617,
                         "src": "12481:4:39",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_calldata_ptr",
@@ -4211,11 +4210,11 @@
                         }
                       },
                       {
-                        "id": 5620,
+                        "id": 5631,
                         "name": "_max",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 5608,
+                        "referencedDeclaration": 5619,
                         "src": "12487:4:39",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -4223,11 +4222,11 @@
                         }
                       },
                       {
-                        "id": 5621,
+                        "id": 5632,
                         "name": "_price",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 5610,
+                        "referencedDeclaration": 5621,
                         "src": "12493:6:39",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -4235,11 +4234,11 @@
                         }
                       },
                       {
-                        "id": 5622,
+                        "id": 5633,
                         "name": "_g",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 5612,
+                        "referencedDeclaration": 5623,
                         "src": "12501:2:39",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -4270,18 +4269,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 5617,
+                      "id": 5628,
                       "name": "_makeERC721Asset",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5601,
+                      "referencedDeclaration": 5612,
                       "src": "12457:16:39",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_uint256_$_t_uint256_$_t_uint256_$returns$_t_address_$",
                         "typeString": "function (string memory,string memory,uint256,uint256,uint256) returns (address)"
                       }
                     },
-                    "id": 5623,
+                    "id": 5634,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -4297,21 +4296,21 @@
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 5616,
-                  "id": 5624,
+                  "functionReturnParameters": 5627,
+                  "id": 5635,
                   "nodeType": "Return",
                   "src": "12450:54:39"
                 }
               ]
             },
             "documentation": {
-              "id": 5602,
+              "id": 5613,
               "nodeType": "StructuredDocumentation",
               "src": "11993:248:39",
               "text": " @dev function\n @param _name dia token name\n @param _max amount of tokens 0 = infinte\n @param _price amount of gascoin for Dia token\n @param _g number of greenlist slots for Dia NFT project 0 = no greenlist"
             },
             "functionSelector": "92a13fde",
-            "id": 5626,
+            "id": 5637,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -4319,17 +4318,17 @@
             "nameLocation": "12255:16:39",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5613,
+              "id": 5624,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5604,
+                  "id": 5615,
                   "mutability": "mutable",
                   "name": "_name",
                   "nameLocation": "12297:5:39",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5626,
+                  "scope": 5637,
                   "src": "12281:21:39",
                   "stateVariable": false,
                   "storageLocation": "calldata",
@@ -4338,7 +4337,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 5603,
+                    "id": 5614,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "12281:6:39",
@@ -4351,12 +4350,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5606,
+                  "id": 5617,
                   "mutability": "mutable",
                   "name": "_sym",
                   "nameLocation": "12328:4:39",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5626,
+                  "scope": 5637,
                   "src": "12312:20:39",
                   "stateVariable": false,
                   "storageLocation": "calldata",
@@ -4365,7 +4364,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 5605,
+                    "id": 5616,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "12312:6:39",
@@ -4378,12 +4377,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5608,
+                  "id": 5619,
                   "mutability": "mutable",
                   "name": "_max",
                   "nameLocation": "12350:4:39",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5626,
+                  "scope": 5637,
                   "src": "12342:12:39",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4392,7 +4391,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5607,
+                    "id": 5618,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "12342:7:39",
@@ -4405,12 +4404,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5610,
+                  "id": 5621,
                   "mutability": "mutable",
                   "name": "_price",
                   "nameLocation": "12372:6:39",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5626,
+                  "scope": 5637,
                   "src": "12364:14:39",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4419,7 +4418,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5609,
+                    "id": 5620,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "12364:7:39",
@@ -4432,12 +4431,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5612,
+                  "id": 5623,
                   "mutability": "mutable",
                   "name": "_g",
                   "nameLocation": "12396:2:39",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5626,
+                  "scope": 5637,
                   "src": "12388:10:39",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4446,7 +4445,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5611,
+                    "id": 5622,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "12388:7:39",
@@ -4461,17 +4460,17 @@
               "src": "12271:133:39"
             },
             "returnParameters": {
-              "id": 5616,
+              "id": 5627,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5615,
+                  "id": 5626,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5626,
+                  "scope": 5637,
                   "src": "12431:7:39",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4480,7 +4479,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5614,
+                    "id": 5625,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "12431:7:39",
@@ -4495,14 +4494,14 @@
               ],
               "src": "12430:9:39"
             },
-            "scope": 5627,
+            "scope": 5638,
             "src": "12246:265:39",
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 5628,
+        "scope": 5639,
         "src": "8735:3778:39",
         "usedErrors": [],
         "usedEvents": []
@@ -4523,8 +4522,7 @@
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2023-12-07T17:34:07.146Z",
-  "networkType": "ethereum",
+  "updatedAt": "2023-12-11T02:05:21.386Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

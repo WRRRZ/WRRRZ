@@ -10,20 +10,20 @@
   "sourceMap": "8654:2764:56:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "8654:2764:56:-:0;;;;;",
   "source": "// SPDX-License-Identifier: GPL-3.0\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//\n//      MMWKd:..                                                                                    ..:dKWMM\n//      MKl.                                                                                            .lKW\n//      O'       ..''''''''''''.     .''''''.     .'''''.      .''''''''''''''.     .''''''''''''..       'O\n//      '     .ckKNNWNWWWWWWWWWk.   .xNWWNWNl    ,0WWWWW0,     lNWWWWWWWWWNWNk'    ;0NNNWWWWWWWWNNKkc.     '\n//           ,OWMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMMMM0,    ;KMMMMMMMMMMMMMMMMWO,\n//          .kMMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMMM0,    ;KMMMMMMMMMMMMMMMMMMMk.\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMM0,    :KMMMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMM0,    :KMMMMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMM0,    ;0NNWWMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMM0,     .'.',;lkNMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMK;              ,kWMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMX:    .:oxxdc'    .dWMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMWd.   ,OWMMMMMXl.   '0MMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMX;   .kMMMMMMMMK,   .xMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMM0'   .OMMMMMMMMX;   .xMMMMMMMMMMMM0'\n//          .OMMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMK,    lNMMMMMMWx.   '0MMMMMMMMMMMMO.\n//           lNMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMWd.   .:x0KKKkc.   .dWMMMMMMMMMMMNl\n//      .    .c0WMMMMMMMMMMMMMMO.   .kMMMMMWo    ,KMMMMMK,     lWMMMMNd.     ....     .xNMMMMMMMMMMW0c.    .\n//      l      .,lddxxxxxxxxxxxc.    :xxxxxd,    .lxxxxxl.     ,dxxxxxd:.            .cdxxxxxxxxddl,.      l\n//      No.                                                                                              .oN\n//      MW0l'                                                                                          'l0WM\n//      MMMWKd;.                                                                                    .;dKWMMM\n//\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//                                                                                                                                                                                  //\n//      @dev            ::              Aron Mauritala Ayuk                                                                                                                                          //\n//      @msg            ::              stereo@iii6.xyz                                                                                                                                   //\n//      @github         ::              @stereoIII6\n//      @twitter        ::              @stereoIII6                                                                                                                                              //\n//                                                                                                                                                                                  //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//                                                                                                                                                                                  //\n//      @dev            ::              Juan Xavier Valverde                                                                                                                                    //\n//      @msg            ::              juanxavier@iii6.xyz                                                                                                                               //\n//      @twitter        ::              @JuanXavier                                                                                                                                             //\n//      @github         ::              @JuanXavier                                                                                                                                             //\n//                                                                                                                                                                                  //                                                                                                                                                                                 //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//                                                                                                                                                                                  //\n//      @company        ::              Fractio Holding                                                                                                                                                                       //\n//      @title          ::              iii6 Global Enums                                                                                                                           //\n//      @description    ::              Global Enum Library                                                                                                                           //\n//      @version        ::              0.0.1                                                                                                                                       //\n//      @purpose        ::              Enum Library                                                                                                          //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n\n/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n\n/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n\npragma solidity ^0.8.7;\n\ncontract iii6Misc {\n    // ██╗███╗░░██╗██╗████████╗██╗░█████╗░██╗░░░░░██╗░██████╗░█████╗░████████╗██╗░█████╗░███╗░░██╗\n    // ██║████╗░██║██║╚══██╔══╝██║██╔══██╗██║░░░░░██║██╔════╝██╔══██╗╚══██╔══╝██║██╔══██╗████╗░██║\n    // ██║██╔██╗██║██║░░░██║░░░██║███████║██║░░░░░██║╚█████╗░███████║░░░██║░░░██║██║░░██║██╔██╗██║\n    // ██║██║╚████║██║░░░██║░░░██║██╔══██║██║░░░░░██║░╚═══██╗██╔══██║░░░██║░░░██║██║░░██║██║╚████║\n    // ██║██║░╚███║██║░░░██║░░░██║██║░░██║███████╗██║██████╔╝██║░░██║░░░██║░░░██║╚█████╔╝██║░╚███║\n    // ╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝\n\n    /**\n     * @dev Divides between two values substracting the remainder from the dividend\n     * @param _a First value\n     * @param _b Second value\n     * @return Result of division\n     */\n    // staus enum\n    enum Status {\n        Pending,\n        Active,\n        Paused,\n        Ended\n    }\n    enum Coins {\n        WETH,\n        GASCOIN,\n        XXX,\n        YYY,\n        USDC\n    }\n    enum LayerTypes {\n        TEXT,\n        SHAPE,\n        IMAGE,\n        VIDEO,\n        AUDIO,\n        HIDDEN\n    }\n    enum CampaignType {\n        View,\n        Click,\n        Lead,\n        Sale,\n        Inactive\n    }\n\n    /**\n     * @dev Divides between two values substracting the remainder from the dividend\n     * @param _a First value\n     * @param _b Second value\n     * @return Result of division\n     */\n    // project enum\n    enum Project {\n        ServiceDigital,\n        ServicePhysical,\n        ProductDigital,\n        ProductPhysical,\n        CollectibleDigital,\n        CollectiblePhysical,\n        RentableDigital,\n        RentablePhysical\n    }\n}\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//\n//      MMWKd:..                                                                                    ..:dKWMM\n//      MKl.                                                                                            .lKW\n//      O'       ..''''''''''''.     .''''''.     .'''''.      .''''''''''''''.     .''''''''''''..       'O\n//      '     .ckKNNWNWWWWWWWWWk.   .xNWWNWNl    ,0WWWWW0,     lNWWWWWWWWWNWNk'    ;0NNNWWWWWWWWNNKkc.     '\n//           ,OWMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMMMM0,    ;KMMMMMMMMMMMMMMMMWO,\n//          .kMMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMMM0,    ;KMMMMMMMMMMMMMMMMMMMk.\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMM0,    :KMMMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMM0,    :KMMMMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMM0,    ;0NNWWMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMM0,     .'.',;lkNMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMK;              ,kWMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMX:    .:oxxdc'    .dWMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMWd.   ,OWMMMMMXl.   '0MMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMX;   .kMMMMMMMMK,   .xMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMM0'   .OMMMMMMMMX;   .xMMMMMMMMMMMM0'\n//          .OMMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMK,    lNMMMMMMWx.   '0MMMMMMMMMMMMO.\n//           lNMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMWd.   .:x0KKKkc.   .dWMMMMMMMMMMMNl\n//      .    .c0WMMMMMMMMMMMMMMO.   .kMMMMMWo    ,KMMMMMK,     lWMMMMNd.     ....     .xNMMMMMMMMMMW0c.    .\n//      l      .,lddxxxxxxxxxxxc.    :xxxxxd,    .lxxxxxl.     ,dxxxxxd:.            .cdxxxxxxxxddl,.      l\n//      No.                                                                                              .oN\n//      MW0l'                                                                                          'l0WM\n//      MMMWKd;.                                                                                    .;dKWMMM\n//\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n",
-  "sourcePath": "/Users/iii6/Documents/GitHub/iii6v2/iii6v2/contracts/iii6utils/Misc/iii6Misc.sol",
+  "sourcePath": "/Users/iii6/Documents/GitHub/iii6v2/WRRRZ/contracts/iii6utils/Misc/iii6Misc.sol",
   "ast": {
     "absolutePath": "project:/contracts/iii6utils/Misc/iii6Misc.sol",
     "exportedSymbols": {
       "iii6Misc": [
-        8109
+        8120
       ]
     },
-    "id": 8110,
+    "id": 8121,
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 8073,
+        "id": 8084,
         "literals": [
           "solidity",
           "^",
@@ -40,9 +40,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 8109,
+        "id": 8120,
         "linearizedBaseContracts": [
-          8109
+          8120
         ],
         "name": "iii6Misc",
         "nameLocation": "8663:8:56",
@@ -51,36 +51,36 @@
           {
             "canonicalName": "iii6Misc.Status",
             "documentation": {
-              "id": 8074,
+              "id": 8085,
               "nodeType": "StructuredDocumentation",
               "src": "10365:188:56",
               "text": " @dev Divides between two values substracting the remainder from the dividend\n @param _a First value\n @param _b Second value\n @return Result of division"
             },
-            "id": 8079,
+            "id": 8090,
             "members": [
               {
-                "id": 8075,
+                "id": 8086,
                 "name": "Pending",
                 "nameLocation": "10598:7:56",
                 "nodeType": "EnumValue",
                 "src": "10598:7:56"
               },
               {
-                "id": 8076,
+                "id": 8087,
                 "name": "Active",
                 "nameLocation": "10615:6:56",
                 "nodeType": "EnumValue",
                 "src": "10615:6:56"
               },
               {
-                "id": 8077,
+                "id": 8088,
                 "name": "Paused",
                 "nameLocation": "10631:6:56",
                 "nodeType": "EnumValue",
                 "src": "10631:6:56"
               },
               {
-                "id": 8078,
+                "id": 8089,
                 "name": "Ended",
                 "nameLocation": "10647:5:56",
                 "nodeType": "EnumValue",
@@ -94,38 +94,38 @@
           },
           {
             "canonicalName": "iii6Misc.Coins",
-            "id": 8085,
+            "id": 8096,
             "members": [
               {
-                "id": 8080,
+                "id": 8091,
                 "name": "WETH",
                 "nameLocation": "10684:4:56",
                 "nodeType": "EnumValue",
                 "src": "10684:4:56"
               },
               {
-                "id": 8081,
+                "id": 8092,
                 "name": "GASCOIN",
                 "nameLocation": "10698:7:56",
                 "nodeType": "EnumValue",
                 "src": "10698:7:56"
               },
               {
-                "id": 8082,
+                "id": 8093,
                 "name": "XXX",
                 "nameLocation": "10715:3:56",
                 "nodeType": "EnumValue",
                 "src": "10715:3:56"
               },
               {
-                "id": 8083,
+                "id": 8094,
                 "name": "YYY",
                 "nameLocation": "10728:3:56",
                 "nodeType": "EnumValue",
                 "src": "10728:3:56"
               },
               {
-                "id": 8084,
+                "id": 8095,
                 "name": "USDC",
                 "nameLocation": "10741:4:56",
                 "nodeType": "EnumValue",
@@ -139,45 +139,45 @@
           },
           {
             "canonicalName": "iii6Misc.LayerTypes",
-            "id": 8092,
+            "id": 8103,
             "members": [
               {
-                "id": 8086,
+                "id": 8097,
                 "name": "TEXT",
                 "nameLocation": "10782:4:56",
                 "nodeType": "EnumValue",
                 "src": "10782:4:56"
               },
               {
-                "id": 8087,
+                "id": 8098,
                 "name": "SHAPE",
                 "nameLocation": "10796:5:56",
                 "nodeType": "EnumValue",
                 "src": "10796:5:56"
               },
               {
-                "id": 8088,
+                "id": 8099,
                 "name": "IMAGE",
                 "nameLocation": "10811:5:56",
                 "nodeType": "EnumValue",
                 "src": "10811:5:56"
               },
               {
-                "id": 8089,
+                "id": 8100,
                 "name": "VIDEO",
                 "nameLocation": "10826:5:56",
                 "nodeType": "EnumValue",
                 "src": "10826:5:56"
               },
               {
-                "id": 8090,
+                "id": 8101,
                 "name": "AUDIO",
                 "nameLocation": "10841:5:56",
                 "nodeType": "EnumValue",
                 "src": "10841:5:56"
               },
               {
-                "id": 8091,
+                "id": 8102,
                 "name": "HIDDEN",
                 "nameLocation": "10856:6:56",
                 "nodeType": "EnumValue",
@@ -191,38 +191,38 @@
           },
           {
             "canonicalName": "iii6Misc.CampaignType",
-            "id": 8098,
+            "id": 8109,
             "members": [
               {
-                "id": 8093,
+                "id": 8104,
                 "name": "View",
                 "nameLocation": "10901:4:56",
                 "nodeType": "EnumValue",
                 "src": "10901:4:56"
               },
               {
-                "id": 8094,
+                "id": 8105,
                 "name": "Click",
                 "nameLocation": "10915:5:56",
                 "nodeType": "EnumValue",
                 "src": "10915:5:56"
               },
               {
-                "id": 8095,
+                "id": 8106,
                 "name": "Lead",
                 "nameLocation": "10930:4:56",
                 "nodeType": "EnumValue",
                 "src": "10930:4:56"
               },
               {
-                "id": 8096,
+                "id": 8107,
                 "name": "Sale",
                 "nameLocation": "10944:4:56",
                 "nodeType": "EnumValue",
                 "src": "10944:4:56"
               },
               {
-                "id": 8097,
+                "id": 8108,
                 "name": "Inactive",
                 "nameLocation": "10958:8:56",
                 "nodeType": "EnumValue",
@@ -237,64 +237,64 @@
           {
             "canonicalName": "iii6Misc.Project",
             "documentation": {
-              "id": 8099,
+              "id": 8110,
               "nodeType": "StructuredDocumentation",
               "src": "10978:188:56",
               "text": " @dev Divides between two values substracting the remainder from the dividend\n @param _a First value\n @param _b Second value\n @return Result of division"
             },
-            "id": 8108,
+            "id": 8119,
             "members": [
               {
-                "id": 8100,
+                "id": 8111,
                 "name": "ServiceDigital",
                 "nameLocation": "11214:14:56",
                 "nodeType": "EnumValue",
                 "src": "11214:14:56"
               },
               {
-                "id": 8101,
+                "id": 8112,
                 "name": "ServicePhysical",
                 "nameLocation": "11238:15:56",
                 "nodeType": "EnumValue",
                 "src": "11238:15:56"
               },
               {
-                "id": 8102,
+                "id": 8113,
                 "name": "ProductDigital",
                 "nameLocation": "11263:14:56",
                 "nodeType": "EnumValue",
                 "src": "11263:14:56"
               },
               {
-                "id": 8103,
+                "id": 8114,
                 "name": "ProductPhysical",
                 "nameLocation": "11287:15:56",
                 "nodeType": "EnumValue",
                 "src": "11287:15:56"
               },
               {
-                "id": 8104,
+                "id": 8115,
                 "name": "CollectibleDigital",
                 "nameLocation": "11312:18:56",
                 "nodeType": "EnumValue",
                 "src": "11312:18:56"
               },
               {
-                "id": 8105,
+                "id": 8116,
                 "name": "CollectiblePhysical",
                 "nameLocation": "11340:19:56",
                 "nodeType": "EnumValue",
                 "src": "11340:19:56"
               },
               {
-                "id": 8106,
+                "id": 8117,
                 "name": "RentableDigital",
                 "nameLocation": "11369:15:56",
                 "nodeType": "EnumValue",
                 "src": "11369:15:56"
               },
               {
-                "id": 8107,
+                "id": 8118,
                 "name": "RentablePhysical",
                 "nameLocation": "11394:16:56",
                 "nodeType": "EnumValue",
@@ -307,7 +307,7 @@
             "src": "11191:225:56"
           }
         ],
-        "scope": 8110,
+        "scope": 8121,
         "src": "8654:2764:56",
         "usedErrors": [],
         "usedEvents": []
@@ -321,7 +321,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.16",
-  "updatedAt": "2023-12-05T23:55:20.149Z",
+  "updatedAt": "2023-12-11T02:05:21.489Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

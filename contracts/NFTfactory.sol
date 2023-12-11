@@ -11,8 +11,7 @@ contract NFTfactory {
     
     mapping(uint => address) contracts;
     
-    constructor() {
-        
+    constructor() {    
     }
 
 
