@@ -46,7 +46,7 @@ The Rhodium Coin is the main InGame Currency of WRRRZ ...
 </div>
 <div id='rhodium' class="boxpost2">
 <video width="100%" autoplay loop >
-  <source src="./images/clip2.mp4" type="video/mp4">
+  <source src="./images/clip4.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </div>`;
