@@ -10,7 +10,7 @@ export let controls;
 export let renderer;
 export let scene;
 export let camera;
-export let character3d = "../../images/3d/base_idle.gltf";
+export let character3d = "../../images/3d/bendetta_talking.gltf";
 export let level3d = "../../images/3d/map.gltf";
 export let flex3d = "../../images/3d/base.gltf";
 
