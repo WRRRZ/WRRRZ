@@ -23,7 +23,7 @@ export const develop_stage = `
 export const launch_bg = `
 <div id='video' class="cov">
 <video width="100%" autoplay loop >
-  <source src="./images/clip4.mp4" type="video/mp4">
+  <source src="./images/clip5.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </div>`;
