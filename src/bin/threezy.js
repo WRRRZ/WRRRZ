@@ -53,9 +53,12 @@ export const init = (model) => {
     object.scale.set(scale, scale, scale);
     object.position.y -= 10;
     console.log(object);
-    object.children[0].children[1].material.color.b = 120;
-    object.children[0].children[1].material.color.r = 120;
-    console.log(object.children[0].children[1].material.color);
+    if (model === character3d) {
+      object.children[0].children[1].material.color.r = Math.random(10);
+      object.children[0].children[1].material.color.g = Math.random(10);
+      object.children[0].children[1].material.color.b = Math.random(10);
+      console.log(object.children[0].children[1].material.color);
+    }
     // modifier = new ModifierStack(object.children[2]);
     // modifier.addModifier(cloth);
     let animations = gltf.animations;
