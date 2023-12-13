@@ -16,7 +16,7 @@ module.exports = {
   module: {
     rules: [
       { test: /\.s[ac]ss$/i, use: ["style-loader", "css-loader", "sass-loader"] },
-      { test: /\.(svg|png|ico|wepg|jpg|jpeg|gifglb|gltf)$/, use: ["asset/resource"] },
+      { test: /\.(svg|png|ico|wepg|jpg|jpeg|gif|glb|gltf|fbx|obj)$/, use: ["asset/resource"] },
     ],
   },
   devtool: "inline-source-map",

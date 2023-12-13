@@ -1,6 +1,7 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+// import { FBXLoader } from "three/examples/jsm/loaders/FBXLoader.js";
 import { bg } from "./mainelements";
 import { ModifierStack, Twist, Noise, Cloth, UserDefined, Taper, Break, Bloat, Vector3, ModConstant } from "three.modifiers";
 
@@ -11,7 +12,7 @@ export let controls;
 export let renderer;
 export let scene;
 export let camera;
-export let character3d = "../../images/3d/idle.gltf";
+export let character3d = "../../images/3d/gcctvyd.gltf";
 export let level3d = "../../images/3d/map.gltf";
 export let flex3d = "../../images/3d/base.gltf";
 export let modifier;
@@ -41,38 +42,68 @@ export const init = (model) => {
   };
 
   let loader = new GLTFLoader();
+  // let loader = new FBXLoader();
   loader.setCrossOrigin("anonymous");
 
   let scale;
   model === character3d ? (scale = 9) : (scale = 0.66);
   let url = model;
   let object;
+
   loader.load(url, function (data) {
     gltf = data;
     object = gltf.scene;
     object.scale.set(scale, scale, scale);
     object.position.y -= 10;
     console.log(object);
+
+    /*
     if (model === character3d) {
       object.children[0].children[1].material.color.r = Math.random(10);
       object.children[0].children[1].material.color.g = Math.random(10);
       object.children[0].children[1].material.color.b = Math.random(10);
       console.log(object.children[0].children[1].material.color);
     }
-    // modifier = new ModifierStack(object.children[2]);
-    // modifier.addModifier(cloth);
-    let animations = gltf.animations;
-    if (animations && animations.length) {
-      mixer = new THREE.AnimationMixer(object);
-      for (let i = 0; i < animations.length; i++) {
-        let animation = animations[i];
-        mixer.clipAction(animation).play();
-      }
-    }
+*/
+    // const bones = object.children[0].children[1].children[6].skeleton.bones;
+    // const skew = object.children[0].children[1].children[6].geometry.index.array;
     scene.add(object);
   });
+  /*
+  loader.load(
+    url,
+    (object) => {
+      object.traverse(function (child) {
+        if (child.isMesh) {
+          /*child.material = material;
+          if (child.material) {
+            child.material.transparent = false;
+          }
+        }
+      });
+      object.scale.set(0.01, 0.01, 0.01);
+      console.log(object);
+      scene.add(object);
+    },
 
-  let axis = new THREE.AxesHelper(1000);
+    (error) => {
+      console.log(error);
+    }
+  );*/
+  // modifier = new ModifierStack(object.children[2]);
+  // modifier.addModifier(cloth);
+  // let animations = gltf.animations;
+  /*
+  if (animations && animations.length) {
+    mixer = new THREE.AnimationMixer(object);
+    for (let i = 0; i < animations.length; i++) {
+      let animation = animations[i];
+      mixer.clipAction(animation).play();
+    }
+  }
+  */
+
+  // let axis = new THREE.AxesHelper(1000);
   // scene.add(axis);
 
   renderer = new THREE.WebGLRenderer();
@@ -83,7 +114,7 @@ export const init = (model) => {
   controls.userPanSpeed = 0.0;
   controls.maxDistance = 5000.0;
   controls.maxPolarAngle = Math.PI * 0.495;
-  controls.autoRotate = true;
+  controls.autoRotate = false;
   controls.autoRotateSpeed = -0.5;
 
   renderer.setSize(width, height);

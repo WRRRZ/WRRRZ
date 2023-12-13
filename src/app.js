@@ -11,6 +11,7 @@ import { show } from "./bin/dynelements";
 import { login, signup, edit } from "./bin/forms";
 import { iii6_stage, iii6_bg, design_stage, develop_stage, launch_bg, launch_stage, info_stage } from "./bin/dyncontent";
 import { init, animate, character3d, level3d, flex3d, removeModel } from "./bin/threezy";
+// import "./bin/threex";
 const client = require("ipfs-http-client");
 const ipfs = client.create({
   host: "ipfs.infura.io",
